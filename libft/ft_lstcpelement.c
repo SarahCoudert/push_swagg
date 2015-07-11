@@ -7,7 +7,7 @@ void	ft_lstcpelement(t_list *copy_from, t_list **copy_to)
 
 	alst = *copy_to;
 	element = ft_lstnew(copy_from->content, copy_from->content_size);
-	if (copy_to)
+	if (copy_to && *copy_to)
 	{
 		while (alst->next != NULL)
 			alst = alst->next;
@@ -15,5 +15,8 @@ void	ft_lstcpelement(t_list *copy_from, t_list **copy_to)
 			alst->next = element;
 	}
 	else
+	{
 		*copy_to = element;
+		(*copy_to)->next = NULL;
+	}
 }

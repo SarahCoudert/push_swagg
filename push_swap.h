@@ -22,6 +22,8 @@ void		test_function(t_list *a);
 void		create_list(t_list **lst, char **av, int ac);
 void		check(char *s);
 void		swap_a(t_list *a);
-void		push_b(t_list *a, t_list **b);
+void		swap_b(t_list *b);
+void		push_a(t_list **a, t_list **b);
+void		push_b(t_list **a, t_list **b);
 
 #endif
