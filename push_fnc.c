@@ -71,12 +71,19 @@ void		swap_b(t_list *b)
 	ptr->content = ptr->next->content;
 	ptr->next->content = temp;
 }
+
+void		ss(t_list *a, t_list *b)
+{
+	swap_a(a);
+	swap_b(b);
+}
+
 /*
-** sa : swap a intervertit les 2 premiers éléments au sommet de la pile a. (ne fait rien s’il n’y en a qu’un ou aucun).
-** sb : swap b - intervertit les 2 premiers éléments au sommet de la pile b.(ne fait rien s’il n’y en a qu’un ou aucun).
-** ss : sa et sb en même temps.
-** pa : push a - prend le premier élément au sommet de b et le met sur a. (ne fait rien si b est vide).
-** pb : push b - prend le premier élément au sommet de a et le met sur b. (ne fait rien si a est vide).
+** sa : swap a intervertit les 2 premiers éléments au sommet de la pile a. (ne fait rien s’il n’y en a qu’un ou aucun).					->check
+** sb : swap b - intervertit les 2 premiers éléments au sommet de la pile b.(ne fait rien s’il n’y en a qu’un ou aucun).				->check
+** ss : sa et sb en même temps.																											->check
+** pa : push a - prend le premier élément au sommet de b et le met sur a. (ne fait rien si b est vide).									->check
+** pb : push b - prend le premier élément au sommet de a et le met sur b. (ne fait rien si a est vide).									->check
 ** ra : rotate a - décale d’une position tous les élements de la pile a. (vers le haut, le premier élément devient le dernier).
 ** rb : rotate b - décale d’une position tous les élements de la pile b. (vers le haut, le premier élément devient le dernier).
 ** rr : ra et rb en meme temps.
