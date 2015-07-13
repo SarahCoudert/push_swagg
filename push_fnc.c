@@ -38,14 +38,22 @@ void		test_function(t_list *a)
 
 	b = NULL;
 	read_list(a, "pile a : ");
-	swap_a(a);
-	read_list(a, "after swap : ");
 	push_b(&a, &b);
 	read_list(a, "a after push b");
 	read_list(b, "b after push b");
 	push_b(&a, &b);
 	read_list(a, "a after push b");
 	read_list(b, "b after push b");
+		push_b(&a, &b);
+	read_list(a, "a after push b");
+	read_list(b, "b after push b");
+		push_b(&a, &b);
+	read_list(a, "a after push b");
+	read_list(b, "b after push b");
+	push_b(&a, &b);
+	read_list(a, "a after push b");
+	read_list(b, "b after push b");
+
 	swap_b(b);
 	read_list(b, "b after swap b");
 }
@@ -82,8 +90,8 @@ void		ss(t_list *a, t_list *b)
 ** sa : swap a intervertit les 2 premiers éléments au sommet de la pile a. (ne fait rien s’il n’y en a qu’un ou aucun).					->check
 ** sb : swap b - intervertit les 2 premiers éléments au sommet de la pile b.(ne fait rien s’il n’y en a qu’un ou aucun).				->check
 ** ss : sa et sb en même temps.																											->check
-** pa : push a - prend le premier élément au sommet de b et le met sur a. (ne fait rien si b est vide).									->check
-** pb : push b - prend le premier élément au sommet de a et le met sur b. (ne fait rien si a est vide).									->check
+** pa : push a - prend le premier élément au sommet de b et le met sur a. (ne fait rien si b est vide).									->check ~~~
+** pb : push b - prend le premier élément au sommet de a et le met sur b. (ne fait rien si a est vide).									->check ~~~
 ** ra : rotate a - décale d’une position tous les élements de la pile a. (vers le haut, le premier élément devient le dernier).
 ** rb : rotate b - décale d’une position tous les élements de la pile b. (vers le haut, le premier élément devient le dernier).
 ** rr : ra et rb en meme temps.

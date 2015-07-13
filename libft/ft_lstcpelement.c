@@ -1,22 +1,20 @@
 #include "includes/libft.h"
 
-void	ft_lstcpelement(t_list *copy_from, t_list **copy_to)
+/*
+ ** copy from est le maillon a copier. copy_to est la liste chainee au debut de laquelle
+ ** nous copions copy_from.
+ ** element est le nouveau maillon copie depuis copy_from. alst est un pointeur sur le premier maillon
+ ** de copy_to.
+ **
+*/
+
+t_list			*ft_lstcpelement(t_list *copy_from, t_list **copy_to)
 {
 	t_list		*element;
 	t_list		*alst;
 
 	alst = *copy_to;
 	element = ft_lstnew(copy_from->content, copy_from->content_size);
-	if (copy_to && *copy_to)
-	{
-		while (alst->next != NULL)
-			alst = alst->next;
-		if (alst->next == NULL)
-			alst->next = element;
-	}
-	else
-	{
-		*copy_to = element;
-		(*copy_to)->next = NULL;
-	}
+	element->next = alst;
+	return (element);
 }

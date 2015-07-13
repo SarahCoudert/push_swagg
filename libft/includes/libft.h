@@ -86,7 +86,7 @@ typedef struct		s_list
 	struct s_list	*next;
 }					t_list;
 
-void				ft_lstcpelement(t_list *copy_from, t_list **copy_to);
+t_list				*ft_lstcpelement(t_list *copy_from, t_list **copy_to);
 t_list				*ft_lstnew(int const content, size_t content_size);
 void				ft_lstdelone(t_list **alst, void (*del)(int, size_t));
 void				ft_lstdelone(t_list **alst, void (*del)(int , size_t));
