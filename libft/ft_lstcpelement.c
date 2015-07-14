@@ -8,13 +8,11 @@
  **
 */
 
-t_list			*ft_lstcpelement(t_list *copy_from, t_list **copy_to)
+t_list			*ft_lstcpelement(t_list *copy_from, t_list *copy_to)
 {
 	t_list		*element;
-	t_list		*alst;
 
-	alst = *copy_to;
 	element = ft_lstnew(copy_from->content, copy_from->content_size);
-	element->next = alst;
+	element->next = copy_to;
 	return (element);
 }

@@ -23,7 +23,15 @@ void		create_list(t_list **lst, char **av, int ac);
 void		check(char *s);
 void		swap_a(t_list *a);
 void		swap_b(t_list *b);
+void		ss(t_list *a, t_list *b);
 void		push_a(t_list **a, t_list **b);
 void		push_b(t_list **a, t_list **b);
+void		rotate_a(t_list **a);
+void		rotate_b(t_list **b);
+void		rr(t_list **a, t_list **b);
+void		reverse_rotate_a(t_list **a);
+void		reverse_rotate_b(t_list **b);
+void		rrr(t_list **a, t_list **b);
+
 
 #endif

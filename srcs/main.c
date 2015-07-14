@@ -11,7 +11,6 @@ int		main(int ac, char **av)
 	else
 	{
 		create_list(&a, av, ac);
-		test_function(a);
 	}
 	return (0);
 }

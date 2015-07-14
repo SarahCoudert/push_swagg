@@ -6,13 +6,26 @@ NAME=push_swap
 
 CC=gcc
 
-SRC=main.c push_fnc.c init.c
+SRC_DIR = srcs
 
-INC=libft/includes
+OBJ_DIR = objs
 
-OBJ=$(SRC:.c=.o)
+SRCS =	main.c \
+		push_fnc.c \
+		init.c
+
+INC=libft/includes -I includes/
+
+OBJS = $(SRCS:.c=.o)
+
+SRC	:=	$(addprefix $(SRC_DIR)/, $(SRCS))
+
+OBJ	:=	$(addprefix $(OBJ_DIR)/, $(OBJS))
 
 RM=rm -f
+
+RM_DIR=rm -rf
+
 
 .PHONY: all, clean, fclean, re
 
@@ -22,14 +35,16 @@ all:
 $(NAME): $(SRC)
 	@make -C libft/
 	@echo "\033[32mCompile all \".c\"\033[0m"
+	@mkdir $(OBJ_DIR)
 	@$(CC) $(CFLAGS) -c $(SRC) -I $(INC)
-	@$(CC) $(CFLAGS) -o $(NAME) $(OBJ) libft/libft.a
+	@$(CC) $(CFLAGS) -o $(NAME) $(OBJS) libft/libft.a
+	@mv $(OBJS) $(OBJ_DIR)
 	@echo "\033[36mCreate $(NAME)\033[0m"
 
 clean:
 	@make -C libft/ clean
 	@echo "\033[31mDelete all \".o\" in $(NAME)\033[0m"
-	@$(RM) $(OBJ)
+	@$(RM_DIR) $(OBJ_DIR)
 
 fclean: clean
 	@make -C libft/ fclean

@@ -17,8 +17,6 @@ void			check(char *s)
 	}
 }
 
-#include <stdio.h>
-
 void			check_list(t_list **a)
 {
 	t_list		*ptr2;
