@@ -1,6 +1,6 @@
 #include "push_swap.h"
 
-void			check(char *s)
+void			check(char *s) //check max et min int
 {
 	int		i;
 

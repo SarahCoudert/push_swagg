@@ -3,7 +3,7 @@
 /*
  ** copy from est le maillon a copier. copy_to est la liste chainee au debut de laquelle
  ** nous copions copy_from.
- ** element est le nouveau maillon copie depuis copy_from. alst est un pointeur sur le premier maillon
+ ** element est le nouveau maillon copie depuis copy_from. alst est un a sur le premier maillon
  ** de copy_to.
  **
 */

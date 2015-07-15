@@ -12,7 +12,12 @@ OBJ_DIR = objs
 
 SRCS =	main.c \
 		push_fnc.c \
-		init.c
+		init.c \
+		swap_fnc.c \
+		rotate_fnc.c \
+		reverse_fnc.c \
+		test_fnc.c \
+		selection.c
 
 INC=libft/includes -I includes/
 
@@ -35,7 +40,7 @@ all:
 $(NAME): $(SRC)
 	@make -C libft/
 	@echo "\033[32mCompile all \".c\"\033[0m"
-	@mkdir $(OBJ_DIR)
+	@mkdir -p $(OBJ_DIR)
 	@$(CC) $(CFLAGS) -c $(SRC) -I $(INC)
 	@$(CC) $(CFLAGS) -o $(NAME) $(OBJS) libft/libft.a
 	@mv $(OBJS) $(OBJ_DIR)
@@ -56,7 +61,9 @@ re: fclean all
 debug:
 	@make -C libft/ fclean
 	@make -C libft/ debug
-	@echo "\033[32mCompile all \".c\" with debug flag\033[0m"
-	@$(CC) $(DEBUG) -c $(SRC) -I $(INC)
-	@$(CC) $(DEBUG) -o $(NAME) $(OBJ) libft/libft.a
-	@echo "\033[36mCreate $(NAME) with debug flag\033[0m"
+	@echo "\033[32mCompile all \".c\" with debug\033[0m"
+	@mkdir -p $(OBJ_DIR)
+	@$(CC) -g $(CFLAGS) -c $(SRC) -I $(INC)
+	@$(CC) -g $(CFLAGS) -o $(NAME) $(OBJS) libft/libft.a
+	@mv $(OBJS) $(OBJ_DIR)
+	@echo "\033[36mCreate $(NAME) with debug flags\033[0m"
