@@ -33,7 +33,8 @@ void		reverse_rotate_a(t_list **a);
 void		reverse_rotate_b(t_list **b);
 void		rrr(t_list **a, t_list **b);
 void		selection(t_list **a, int size);
-void		swap_element(t_list **a, int begin, int min, int way);
+void		swap_element(t_list **a, t_list **b, int max, int way);
+void		get_elements(t_list **a, t_list **b);
 
 
 enum		e_sens   	
