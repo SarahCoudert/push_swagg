@@ -16,7 +16,7 @@ void		push_a(t_list **a, t_list **b)
 	t_list		*ptr;
 
 	ptr = *b;
-	*b = ft_lstcpelement(*b, *a);
+	*a = ft_lstcpelement(*b, *a);
 	*b = (*b)->next;
 	free(ptr);
 	ft_putstr("pa");

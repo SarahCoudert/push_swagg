@@ -1,6 +1,6 @@
 #include "push_swap.h"
 
-void			check(char *s) //check max et min int
+void			check(char *s)
 {
 	int		i;
 
@@ -29,6 +29,7 @@ void			check_list(t_list **a)
 	ptr2 = *a;
 	while (ptr->next)
 	{
+		ptr->content_size = 0;
 		temp = ptr->content;
 		while (ptr2->next)
 		{
@@ -56,4 +57,5 @@ void			create_list(t_list **lst, char **av, int ac)
 		i++;
 	}
 	check_list(lst);
+	check_order(*lst, 1);
 }

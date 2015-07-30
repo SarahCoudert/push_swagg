@@ -2,7 +2,7 @@
 
 void		selection(t_list **a, int size)
 {
-	int		max;
+	int		min;
 	int		index;
 	t_list	*ptr;
 	t_list	*b;
@@ -10,31 +10,31 @@ void		selection(t_list **a, int size)
 	b = NULL;
 	ptr = *a;
 	index = 0;
-	max = ptr->content;
+	min = ptr->content;
 	while (*a)
 	{
 		while (ptr)
 		{
-			if (ptr->content > max)
-				max = ptr->content;
+			if (ptr->content < min)
+				min = ptr->content;
 			ptr = ptr->next;
 			index++;
 		}
 		if (index < size / 2)
-			swap_element(a, &b, max, RIGHT);
+			swap_element(a, &b, min, RIGHT);
 		else
-			swap_element(a, &b, max, LEFT);
+			swap_element(a, &b, min, LEFT);
 		size--;
 		ptr = *a;
 		if (*a)
-			max = (*a)->content;
+			min = (*a)->content;
 	}
 	get_elements(a, &b);
 }
 
-void		swap_element(t_list **a, t_list **b, int max, int way)
+void		swap_element(t_list **a, t_list **b, int min, int way)
 {
-	while ((*a)->content != max)
+	while ((*a)->content != min)
 	{
 		if (way == LEFT)
 			reverse_rotate_a(a);
@@ -42,10 +42,10 @@ void		swap_element(t_list **a, t_list **b, int max, int way)
 			rotate_a(a);
 		ft_putchar(' ');
 	}
-	if ((*a)->content == max)
+	if ((*a)->content == min)
 	{
 		push_b(a, b);
-		ft_putchar(' ');	
+		ft_putchar(' ');
 	}
 }
 
@@ -54,9 +54,11 @@ void		get_elements(t_list **a, t_list **b)
 	t_list *lst;
 
 	lst = *b;
-	while (lst)
+	while (lst->next)
 	{
-		read_list(lst, "\nb :D");
 		push_a(a, &lst);
+		ft_putchar(' ');
 	}
+		push_a(a, &lst);
+		ft_putchar('\n');
 }

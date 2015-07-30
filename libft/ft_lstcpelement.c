@@ -1,10 +1,9 @@
 #include "includes/libft.h"
 
 /*
- ** copy from est le maillon a copier. copy_to est la liste chainee au debut de laquelle
- ** nous copions copy_from.
- ** element est le nouveau maillon copie depuis copy_from. alst est un a sur le premier maillon
- ** de copy_to.
+ ** copy_from is the element to copy
+ ** we copy copy_from to the begin of copy_to
+ ** element is the new element that we copied from copy_from
  **
 */
 

@@ -13,12 +13,24 @@
 
 #include "libft.h"
 
-int	ft_atoi(char const *str)
+void	check_value(int value, int nega, char c)
+{
+	if (nega == -1 && ((value * nega) * 10) > MAX_INT)
+		ft_put_error("Error\n", 2, -1);
+	if (nega == 1 && (value * 10) < MIN_INT)
+		ft_put_error("Error\n", 2, -1);
+	if (nega == 1 && value < MIN_INT / 10 && c > '8')
+		ft_put_error("Error\n", 2, -1);
+	if (nega == -1 && value > MAX_INT / 10 && c > '7')
+		ft_put_error("Error\n", 2, -1);
+}
+
+int		ft_atoi(char const *str)
 {
 	int		is_negative;
 	int		value;
 
-	is_negative = 0;
+	is_negative = -1;
 	value = 0;
 	str = ft_strtrim(str);
 	if (*str == '+')
@@ -30,10 +42,10 @@ int	ft_atoi(char const *str)
 	}
 	while ((*str <= '9') && (*str >= '0'))
 	{
+		check_value(value, is_negative, *str);
 		value = (value * 10) - (*str - '0');
 		str++;
 	}
-	if (!is_negative)
-		value *= -1;
+	value *= is_negative;
 	return (value);
 }

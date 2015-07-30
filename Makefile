@@ -17,7 +17,9 @@ SRCS =	main.c \
 		rotate_fnc.c \
 		reverse_fnc.c \
 		test_fnc.c \
-		selection.c
+		selection.c \
+		selection_tab.c \
+		quicksort.c
 
 INC=libft/includes -I includes/
 

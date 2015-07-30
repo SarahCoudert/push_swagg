@@ -13,6 +13,8 @@
 #ifndef LIBFT_H
 # define LIBFT_H
 # include <string.h>
+#define MAX_INT		2147483647
+#define MIN_INT		(-MAX_INT -1)
 
 void				ft_double_tab_del(void **tab);
 int					ft_hexatodeci(char *str);

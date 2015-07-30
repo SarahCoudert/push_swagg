@@ -13,7 +13,7 @@ int		main(int ac, char **av)
 	else
 	{
 		create_list(&a, av, ac);
-		selection(&a, countelem(a));
+		ft_putnbr(medianne(a));
 	}
 	return (0);
 }
