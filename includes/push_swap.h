@@ -34,11 +34,14 @@ void			reverse_rotate_b(t_list **b);
 void			rrr(t_list **a, t_list **b);
 void			selection(t_list **a, int size);
 void			swap_element(t_list **a, t_list **b, int max, int way);
-void			get_elements(t_list **a, t_list **b);
+void			get_elements(t_list **a, t_list **b, int pivot);
 int				check_order(t_list *ptr, int check);
 int				medianne(t_list *a);
 int				*selection_tab(int *tab, int size);
 void			swap(int *a, int *b);
+void			push_sort(t_list **a, int size);
+void			ft_quicksort(t_list **a, int pivot, int size);
+void			order_list(t_list **a, int size);
 
 enum			e_sens   	
 {

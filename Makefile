@@ -17,7 +17,6 @@ SRCS =	main.c \
 		rotate_fnc.c \
 		reverse_fnc.c \
 		test_fnc.c \
-		selection.c \
 		selection_tab.c \
 		quicksort.c
 
@@ -52,6 +51,7 @@ clean:
 	@make -C libft/ clean
 	@echo "\033[31mDelete all \".o\" in $(NAME)\033[0m"
 	@$(RM_DIR) $(OBJ_DIR)
+	@$(RM) $(OBJS)
 
 fclean: clean
 	@make -C libft/ fclean
