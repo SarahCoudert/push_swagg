@@ -31,7 +31,7 @@ ft_lstaddend.c ft_lstcountbytes.c ft_itoa.c  \
 ft_lstcountelements.c ft_putnbr.c ft_strlen.c ft_strnstr.c ft_tolower.c \
 ft_isprint.c ft_strcpy.c ft_lstadd.c ft_tabnew.c \
 ft_double_tab_del.c ft_count_word.c ft_putn.c ft_strtoupper.c ft_hexatodeci.c \
-ft_put_error.c ft_lstcpelement.c ft_isspace.c
+ft_put_error.c ft_lstcpelement.c ft_isspace.c ft_deferputstr.c
 
 HEADER=./includes
 

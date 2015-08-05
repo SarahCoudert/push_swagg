@@ -17,6 +17,37 @@ void			check(char *s)
 	}
 }
 
+void			check_if_swap(t_list **a, int size)
+{
+	int		pb;
+	int		where;
+	int		memory;
+	t_list	*ptr;
+	int		which;
+
+	which = 0;
+	ptr = *a;
+	memory = 0;
+	where = 0;
+	pb = 0;
+	while (ptr->next)
+	{
+		where++;
+		if (ptr->content > ptr->next->content)
+		{
+			memory = where;
+			which = ptr->content;
+			pb++;
+		}
+		ptr = ptr->next;
+	}
+	ptr = *a;
+	if (pb == 1 && size > 3)
+	{
+		swap_elements(((memory > size / 2) ? DOWN : UP), a, which);
+	}
+}
+
 void			check_list(t_list **a)
 {
 	t_list		*ptr2;
@@ -40,6 +71,7 @@ void			check_list(t_list **a)
 		ptr = ptr->next;
 		ptr2 = ptr;
 	}
+	check_if_swap(a, countelem(*a));
 }
 
 void			create_list(t_list **lst, char **av, int ac)
@@ -58,4 +90,5 @@ void			create_list(t_list **lst, char **av, int ac)
 	}
 	check_list(lst);
 	check_order(*lst, 1);
+	read_list(*lst, "list");
 }

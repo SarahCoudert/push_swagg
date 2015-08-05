@@ -5,87 +5,97 @@
  **
 */
 
-void		order_list(t_list **a, int size)
+void		order_list(t_list **a, int element_b, int *nb_rot)
 {
-	t_list *ptr;
-
-	ptr = *a;
-	while ((*a)->content_size != 1 && size > 0)
+	while ((*a) && element_b > 0)
 	{
 		rotate_a(a);
-		ft_putchar(' ');
-		size--;
+		element_b--;
+		*nb_rot = *nb_rot - 1;
 	}
-	*a = ptr;
 }
 
 void		get_elements(t_list **a, t_list **b, int pivot)
 {
 	t_list *lst;
-	int		find_pivot;
 
-	find_pivot = 0;
 	lst = *b;
 	while (lst)
 	{
-		if (lst->content == pivot && find_pivot == 0)
-		{
+		if (lst->content == pivot && lst->next != NULL)
 			rotate_b(b);
-			find_pivot = 1;
-		}
 		else
-			push_a(a, &lst);
-		ft_putchar(' ');
+			push_a(a, b);
+		lst = *b;
 	}
 }
 
-void		ft_quicksort(t_list **a, int pivot, int size)
+void		ft_quicksort(t_list **a, int pivot, int size, int *nb_rot)
 {
-	t_list	*ptr;
-	t_list	*b;
-	int		nb_rotate;
+	t_list			*ptr;
+	t_list			*b;
+	int				element_b;
 
-	nb_rotate = size;
+	element_b = 0;
 	b = NULL;
 	ptr = *a;
-	while (ptr && (ptr->content_size != 1 && ptr->content != pivot))
+	while (*a && size > 0)
 	{
 		if (ptr->content == pivot)
 		{
 			ptr->content_size = 1;
+			element_b++;
 			push_b(a, &b);
 		}
+		else if (ptr->content_size == 1 && ptr->content != pivot)
+			break ;
 		else if (ptr->content > pivot)
+		{
 			push_b(a, &b);
+			element_b++;
+		}
 		else if (ptr->content < pivot)
 		{
 			rotate_a(a);
-			nb_rotate--;
+			*nb_rot = *nb_rot - 1;
 		}
-		read_list(*a, "coeur");
-		ft_putchar(' ');
+		ptr = *a;
+		size--;
 	}
-	read_list(b, "list b, chiffres superieur au pivot et pivot");
-	read_list(*a, "list a inferieur au pivot");
 	get_elements(a, &b, pivot);
-	order_list(a, nb_rotate);
+	order_list(a, element_b, nb_rot);
 }
 
-void		push_sort(t_list **a, int size)
+void		push_sort(t_list **a, int lst_size)
 {
-	int	pivot;
-	int	nb_pivot;
+	int		pivot;
+	int		nb_pivot;
+	int		size;
+	int		nb_rotate;
 
+	nb_rotate = lst_size;
+	size = 0;
 	pivot = 0;
 	nb_pivot = 0;
-	while (nb_pivot < size)
+	while (nb_pivot < lst_size)
 	{
-		pivot = medianne(*a);
+		while (*a && (*a)->content_size == 1)
+		{
+			rotate_a(a);
+			nb_rotate--;
+			if (nb_rotate == 0)
+				nb_rotate = lst_size;
+		}
+		check_order(*a, 1);
+		pivot = medianne(*a, &size, nb_rotate);
 		nb_pivot++;
-				#include <stdio.h>
-		printf("pivot : %d\tsize : %d\n", pivot, size);
-		ft_quicksort(a, pivot, size);
-		read_list(*a, "\nlist a after first quick sort");
-		return ;
+		ft_quicksort(a, pivot, size, &nb_rotate);
+		if (nb_rotate == 0)
+			nb_rotate = lst_size;
+	}
+	while (nb_rotate > 0)
+	{
+		rotate_a(a);
+		nb_rotate--;
 	}
 }

@@ -8,7 +8,7 @@ void		push_b(t_list **a, t_list **b)
 	*b = ft_lstcpelement(*a, *b);
 	*a = (*a)->next;
 	free(ptr);
-	ft_putstr("pb");
+	ft_deferputstr("pb ");
 }
 
 void		push_a(t_list **a, t_list **b)
@@ -19,5 +19,5 @@ void		push_a(t_list **a, t_list **b)
 	*a = ft_lstcpelement(*b, *a);
 	*b = (*b)->next;
 	free(ptr);
-	ft_putstr("pa");
+	ft_deferputstr("pa ");
 }

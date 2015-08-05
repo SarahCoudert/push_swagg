@@ -5,7 +5,9 @@ int		main(int ac, char **av)
 {
 	t_list	*a;
 	t_list	*b;
+	int		size;
 
+	size = 0;
 	b = NULL;
 	a = NULL;
 	if (ac == 1)
@@ -13,7 +15,11 @@ int		main(int ac, char **av)
 	else
 	{
 		create_list(&a, av, ac);
-		push_sort(&a, countelem(a));
+		size = countelem(a);
+		if (size == 3)
+			three_elements(&a);
+		else
+			push_sort(&a, size);
 	}
 	return (0);
 }

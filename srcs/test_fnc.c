@@ -13,6 +13,8 @@ void		read_list(t_list *list, char *name)
 	{
 		ft_putstr("\t");
 		ft_putnbr(ptr->content);
+		if (ptr->content_size == 1)
+			ft_putstr("\t\tP");
 		putn();
 		ptr = ptr->next;
 	}
@@ -35,7 +37,6 @@ int			check_order(t_list *ptr, int check)
 		else
 			ptr = ptr->next;
 	}
-	if (check == 1)
-		exit(0);
-	ft_putstr("List sorted\n");
+	ft_putchar('\n');
+	exit(0);
 }

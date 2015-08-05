@@ -80,6 +80,7 @@ void				**ft_tabnew(int size);
 void				putn(void);
 char				*ft_strtoupper(char *s);
 void				ft_put_error(char *s, int fd, int error);
+void				ft_deferputstr(char *s);
 
 typedef struct		s_list
 {

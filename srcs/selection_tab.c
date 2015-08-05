@@ -9,32 +9,32 @@ void			swap(int *a, int *b)
 	*b = temp;
 }
 
-int			medianne(t_list *a)
+int			medianne(t_list *a, int *size, int nb_rot)
 {
 	int		*tab;
-	int		size;
 	int		i;
 	t_list *ptr;
 
 	ptr = a;
 	i = 0;
-	size = 0;
-	while (a && a->content_size != 1)
+	*size = 0;
+	while (a && a->content_size != 1 && nb_rot > 0)
 	{
-		size++;
+		*size = *size + 1;
 		a = a->next;
+		nb_rot--;
 	}
 	a = ptr;
-	tab = malloc(size * sizeof(int));
-	while (i < size)
+	tab = malloc(*size * sizeof(int));
+	while (i < *size)
 	{
 		tab[i] = a->content;
 		a = a->next;
 		i++;
 	}
 	a = ptr;
-	tab = selection_tab(tab, size);
-	return ((size % 2 == 0) ? tab[size / 2] : tab[(size / 2) - 1]);
+	tab = selection_tab(tab, *size);
+	return (tab[(*size / 2)]);
 }
 
 int			*selection_tab(int *tab, int size)
