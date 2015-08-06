@@ -48,6 +48,14 @@ int				min_lst(t_list *a);
 void			two_elements(t_list **a);
 void			four_or_five_elements(int size, t_list ** a);
 
+typedef struct	s_bonus
+{
+	int			color;
+	int			verbose;
+}				t_bonus;
+
+t_bonus			g_bonus;
+
 enum			e_sens   	
 {
 				UP,

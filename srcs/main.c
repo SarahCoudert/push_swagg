@@ -1,6 +1,29 @@
 
 #include "push_swap.h"
 
+void	create_bonus(char **av, int ac)
+{
+	int	i;
+
+	i = 1;
+	g_bonus.color = 0;
+	g_bonus.verbose = 0;
+	while (i < 4 && i < ac)
+	{
+		if (ft_strcmp(av[i], "-c") == 0)
+		{
+			g_bonus.color = 1;
+		}
+		else if (ft_strcmp(av[i], "-v") == 0)
+		{
+			g_bonus.verbose = 1;
+		}
+		else
+			return ;
+		i++;
+	}
+}
+
 int		main(int ac, char **av)
 {
 	t_list	*a;
@@ -8,10 +31,12 @@ int		main(int ac, char **av)
 
 	size = 0;
 	a = NULL;
+
 	if (ac == 1)
 		return (0);
 	else
 	{
+		create_bonus(av, ac);
 		create_list(&a, av, ac);
 		size = countelem(a);
 		if (size == 2)

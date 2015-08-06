@@ -11,13 +11,11 @@ void		read_list(t_list *list, char *name)
 	ptr  = list;
 	while (ptr)
 	{
-		ft_putstr("\t");
 		ft_putnbr(ptr->content);
-		if (ptr->content_size == 1)
-			ft_putstr("\t\tP");
-		putn();
+		ft_putstr("  ");
 		ptr = ptr->next;
 	}
+	ft_putchar('\n');
 }
 
 int			check_order(t_list **p, int check)

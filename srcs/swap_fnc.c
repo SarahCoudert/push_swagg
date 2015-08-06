@@ -13,7 +13,10 @@ void		swap_a(t_list *a)
 	ptr->content_size = ptr->next->content_size;
 	ptr->next->content = temp;
 	ptr->next->content_size = temp_size;
-	ft_deferputstr("sa ");
+	if (g_bonus.color == 1)
+		ft_deferputstr("\033[1;33msa\033[0m ");
+	else
+		ft_deferputstr("sa ");
 }
 
 void		swap_b(t_list *b)
@@ -29,7 +32,10 @@ void		swap_b(t_list *b)
 	ptr->content_size = ptr->next->content_size;
 	ptr->next->content = temp;
 	ptr->next->content_size = temp_size;
-	ft_deferputstr("sb ");
+	if (g_bonus.color == 1)
+		ft_deferputstr("\033[33msb\033[0m ");
+	else
+		ft_deferputstr("sb ");
 }
 
 void		ss(t_list *a, t_list *b)

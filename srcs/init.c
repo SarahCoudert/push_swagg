@@ -77,17 +77,30 @@ void			check_list(t_list **a)
 void			create_list(t_list **lst, char **av, int ac)
 {
 	int		i;
+	int		happend;
 	int		j;
 
+	happend = 0;
 	j = 0;
 	i = 1;
 	while (i < ac)
 	{
-		check(av[i]);
-		j = ft_atoi(av[i]);
-		ft_lstaddend(j, 0, lst);
-		i++;
+		if (ft_strcmp(av[i], "-c") != 0 && ft_strcmp(av[i], "-v") != 0)
+		{
+			happend++;
+			check(av[i]);
+			j = ft_atoi(av[i]);
+			ft_lstaddend(j, 0, lst);
+			i++;
+		}
+		else
+			i++;
 	}
-	check_list(lst);
-	check_order(lst, 1);
+	if (happend > 0)
+	{
+		check_list(lst);
+		check_order(lst, 1);
+	}
+	else
+		exit(0);
 }

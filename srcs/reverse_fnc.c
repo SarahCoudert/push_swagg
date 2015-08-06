@@ -22,7 +22,10 @@ void		reverse_rotate_a(t_list **a)
 	}
 	alst = *a;
 	alst->content = prev->content;
-	ft_deferputstr("rra ");
+	if (g_bonus.color == 1)
+		ft_deferputstr("\033[1;31mrra\033[0m ");
+	else
+		ft_deferputstr("rra ");
 }
 
 void		reverse_rotate_b(t_list **b)

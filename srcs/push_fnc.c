@@ -8,7 +8,10 @@ void		push_b(t_list **a, t_list **b)
 	ptr = *a;
 	*a = (*a)->next;
 	free(ptr);
-	ft_deferputstr("pb ");
+	if (g_bonus.color == 1)
+		ft_deferputstr("\033[1;34mpb\033[0m ");
+	else
+		ft_deferputstr("pb ");
 }
 
 void		push_a(t_list **a, t_list **b)
@@ -19,5 +22,8 @@ void		push_a(t_list **a, t_list **b)
 	ptr = *b;
 	*b = (*b)->next;
 	free(ptr);
-	ft_deferputstr("pa ");
+	if (g_bonus.color == 1)
+		ft_deferputstr("\033[1;36mpa\033[0m ");
+	else
+		ft_deferputstr("pa ");
 }

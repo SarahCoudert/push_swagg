@@ -13,6 +13,8 @@ void		order_list(t_list **a, int element_b, int *nb_rot)
 		element_b--;
 		*nb_rot = *nb_rot - 1;
 	}
+	if (g_bonus.verbose == 1)
+		read_list(*a, "\n");
 }
 
 void		get_elements(t_list **a, t_list **b, int pivot)

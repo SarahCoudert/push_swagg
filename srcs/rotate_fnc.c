@@ -17,7 +17,10 @@ void		rotate_a(t_list **a)
 	}
 	alst->content = temp;
 	alst->content_size = content_size_tmp;
-	ft_deferputstr("ra ");
+	if (g_bonus.color == 1)
+		ft_deferputstr("\033[1;35mra\033[0m ");
+	else
+		ft_deferputstr("ra ");
 }
 
 
@@ -39,7 +42,10 @@ void		rotate_b(t_list **b)
 	}
 	alst->content = temp;
 	alst->content_size = content_size_tmp;
-	ft_deferputstr("rb ");
+	if (g_bonus.color == 1)
+		ft_deferputstr("\033[1;32mrb\033[0m ");
+	else
+		ft_deferputstr("rb ");
 }
 
 void		rr(t_list **a, t_list **b)
