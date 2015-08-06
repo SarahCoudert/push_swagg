@@ -9,7 +9,7 @@ void			swap(int *a, int *b)
 	*b = temp;
 }
 
-int			medianne(t_list *a, int *size, int nb_rot)
+void		medianne(t_list *a, int *size, int nb_rot, int *pivot)
 {
 	int		*tab;
 	int		i;
@@ -33,11 +33,11 @@ int			medianne(t_list *a, int *size, int nb_rot)
 		i++;
 	}
 	a = ptr;
-	tab = selection_tab(tab, *size);
-	return (tab[(*size / 2)]);
+	*pivot = selection_tab(tab, *size);
+	free(tab);
 }
 
-int			*selection_tab(int *tab, int size)
+int			selection_tab(int *tab, int size)
 {
 	int		i;
 	int		min;
@@ -59,5 +59,5 @@ int			*selection_tab(int *tab, int size)
 		i = where;
 		min = where;
 	}
-	return (tab);
+	return (tab[(size / 2)]);
 }

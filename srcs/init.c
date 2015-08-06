@@ -85,10 +85,9 @@ void			create_list(t_list **lst, char **av, int ac)
 	{
 		check(av[i]);
 		j = ft_atoi(av[i]);
-		ft_lstaddend(j, sizeof(int), lst);
+		ft_lstaddend(j, 0, lst);
 		i++;
 	}
 	check_list(lst);
-	check_order(*lst, 1);
-	read_list(*lst, "list");
+	check_order(lst, 1);
 }

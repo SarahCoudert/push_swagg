@@ -12,27 +12,28 @@
 /* ************************************************************************** */
 
 #include "libft.h"
+#include <stdlib.h>
 
 void	check_value(int value, int nega, char c)
 {
-	if (nega == -1 && ((value * nega) * 10) > MAX_INT)
-		ft_put_error("Error\n", 2, -1);
-	if (nega == 1 && (value * 10) < MIN_INT)
-		ft_put_error("Error\n", 2, -1);
-	if (nega == 1 && value < MIN_INT / 10 && c > '8')
-		ft_put_error("Error\n", 2, -1);
-	if (nega == -1 && value > MAX_INT / 10 && c > '7')
-		ft_put_error("Error\n", 2, -1);
+	if (nega == -1 && (value * nega) > MAX_INT / 10)
+		ft_put_error("Error", 2, -1);
+	if (nega == 1 && value < MIN_INT / 10)
+		ft_put_error("Error", 2, -1);
+	if (nega == 1 && value == MIN_INT / 10 && c > '8')
+		ft_put_error("Error", 2, -1);
+	if (nega == -1 && (value * -1) == MAX_INT / 10 && c > '7')
+		ft_put_error("Error", 2, -1);
 }
 
-int		ft_atoi(char const *str)
+int		ft_atoi(char *str)
 {
 	int		is_negative;
 	int		value;
 
 	is_negative = -1;
 	value = 0;
-	str = ft_strtrim(str);
+	ft_strtrim(str);
 	if (*str == '+')
 		str++;
 	if (*str == '-')
@@ -40,7 +41,7 @@ int		ft_atoi(char const *str)
 		is_negative = 1;
 		str++;
 	}
-	while ((*str <= '9') && (*str >= '0'))
+	while (*str && (*str <= '9') && (*str >= '0'))
 	{
 		check_value(value, is_negative, *str);
 		value = (value * 10) - (*str - '0');

@@ -12,19 +12,16 @@
 
 #include "includes/libft.h"
 #include <string.h>
+#include <stdlib.h>
 
 char	*ft_strnew(size_t size)
 {
 	char	*ptr;
 
 	ptr = NULL;
-	ptr = ft_memalloc(size + 1);
-	if (size + 1)
-	{
-		if (ptr == NULL)
+	ptr = malloc(size);
+	if (ptr == NULL)
 			return (NULL);
-		else
-			ft_bzero(ptr, size + 1);
-	}
+	ft_bzero(ptr, size);
 	return (ptr);
 }

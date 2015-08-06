@@ -20,15 +20,19 @@ void		read_list(t_list *list, char *name)
 	}
 }
 
-int			check_order(t_list *ptr, int check)
+int			check_order(t_list **p, int check)
 {
+	t_list	*ptr;
+
+	ptr = *p;
 	while(ptr->next)
 	{
 		if (ptr->content > ptr->next->content)
 		{
 			if (check == 0)
 			{
-				ft_putstr("Error, list unsorted\n");
+				ft_putstr("\nError, list unsorted\n");
+				read_list(*p, "List ");
 				return ;
 			}
 			else
@@ -37,6 +41,7 @@ int			check_order(t_list *ptr, int check)
 		else
 			ptr = ptr->next;
 	}
+	ft_lstdel(p);
 	ft_putchar('\n');
 	exit(0);
 }

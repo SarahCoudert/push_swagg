@@ -1,8 +1,3 @@
-#
-#
-#
-#
-
 #include "libft.h"
 
 int		ft_hexatodeci(char *str)
@@ -10,7 +5,7 @@ int		ft_hexatodeci(char *str)
 	int		value;
 
 	value = -42;
-	str = ft_strtrim(str);
+	ft_strtrim(str);
 	while (*str)
 	{
 		if (*str == '0' && (*(++str) == 'X' || *str == 'x'))

@@ -13,62 +13,22 @@
 #include "includes/libft.h"
 #include <stdlib.h>
 
-static int		whitespacesforward(const char *s)
+void	ft_strtrim(char *s)
 {
-	int		counter;
+	int	offset;
+	int	i;
 
-	counter = 0;
-	while (s[counter] == '\n' || s[counter] == ' ' || s[counter] == '\t')
-		counter++;
-	return (counter);
-}
-
-static int		whitespacesbackward(const char *s)
-{
-	int		counter;
-	int		i;
-
-	counter = 0;
+	offset = 0;
 	i = 0;
-	if (s)
+	while (*s && ft_isspace(s[offset]))
+		offset++;
+	if (offset != 0)
 	{
-		if ((ft_strlen(s) - 1))
-		{
-			i = ft_strlen(s) - 1;
-			while (s[i] == '\n' || s[i] == ' ' || s[i] == '\t')
-			{
-				counter++;
-				i--;
-			}
-		}
+		while (s[offset + i - 1])
+			s[i] = s[offset + i];
+	i = ft_strlen(s) - 1;
+	while (i >= 0 && ft_isspace(s[i]))
+		s[i] = '\0';
+		i--;
 	}
-	return (counter);
-}
-
-char			*ft_strtrim(char const *s)
-{
-	int		i;
-	char	*newstr;
-	int		size;
-
-	i = 0;
-	size = 0;
-	newstr = NULL;
-	if (s)
-	{
-		size = ft_strlen(s);
-		newstr = ft_strdup(s);
-		if (newstr == NULL)
-			return (NULL);
-		i = whitespacesforward(newstr);
-		if (i == size)
-			return (malloc(0));
-		size = size - i;
-		newstr = ft_strsub(newstr, i, size);
-		i = whitespacesbackward(newstr);
-		size = size - i;
-		newstr = ft_strsub(newstr, 0, size);
-		return (newstr);
-	}
-	return (NULL);
 }

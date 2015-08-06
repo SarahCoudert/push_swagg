@@ -20,12 +20,11 @@ void		three_elements(t_list **lst)
 		swap_a(*lst);
 	else if (a > b && a > c && b < c)
 		rotate_a(lst);
-	else
+	else if (a > b && b > c && a > c)
 	{
 		swap_a(*lst);
 		reverse_rotate_a(lst);
 	}
-	ft_putchar('\n');
 }
 
 int			min_lst(t_list *a)
@@ -60,7 +59,6 @@ void		swap_elements(int way, t_list **a, int pb)
 			rotate_a(a);
 		else if (way == DOWN && continu == 1)
 			reverse_rotate_a(a);
-
 	}
 	while ((*a)->content != begin)
 	{
@@ -69,6 +67,36 @@ void		swap_elements(int way, t_list **a, int pb)
 		else if (way == DOWN)
 			rotate_a(a);
 	}
-	ft_putchar('\n');
-	exit(0);
+}
+
+void		two_elements(t_list **a)
+{
+	if ((*a)->content > (*a)->next->content)
+		swap_a(*a);
+}
+
+void		four_or_five_elements(int size, t_list ** a)
+{
+	t_list	*b;
+	int		i;
+
+	i = 0;
+	b = NULL;
+	push_b(a, &b);
+	push_b(a, &b);
+	if (size == 4)
+		two_elements(a);
+	else
+		three_elements(a);
+	two_elements(&b);
+	while (i < size)
+	{
+		if (b && b->content < (*a)->content || size - i == countelem(b))
+			push_a(a, &b);
+		else
+		{
+			rotate_a(a);
+			i++;
+		}
+	}
 }

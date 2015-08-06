@@ -35,16 +35,18 @@ void			rrr(t_list **a, t_list **b);
 void			selection(t_list **a, int size);
 void			swap_element(t_list **a, t_list **b, int max, int way);
 void			get_elements(t_list **a, t_list **b, int pivot);
-int				check_order(t_list *ptr, int check);
-int				medianne(t_list *a, int *size, int nb_rot);
-int				*selection_tab(int *tab, int size);
+int				check_order(t_list **ptr, int check);
+void			medianne(t_list *a, int *size, int nb_rot, int *pivot);
+int				selection_tab(int *tab, int size);
 void			swap(int *a, int *b);
-void			push_sort(t_list **a, int size);
+void			push_sort(t_list **a, int lst_size, int size, int pivot);
 void			ft_quicksort(t_list **a, int pivot, int size, int *nb_rot);
 void			order_list(t_list **a, int element_b, int *nb_rot);
 void			three_elements(t_list **lst);
 void			swap_elements(int way, t_list **a, int pb);
 int				min_lst(t_list *a);
+void			two_elements(t_list **a);
+void			four_or_five_elements(int size, t_list ** a);
 
 enum			e_sens   	
 {
