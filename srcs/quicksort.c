@@ -1,9 +1,16 @@
-#include "push_swap.h"
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   quicksort.c                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: scoudert <scoudert@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2015/09/29 17:36:59 by scoudert          #+#    #+#             */
+/*   Updated: 2015/09/29 17:37:04 by scoudert         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
-/*
- ** trouver la medianne ==> la definir comme pivot. Tout ce qui est plus petit est rra, et ce qui est plus grand est push b
- **
-*/
+#include "push_swap.h"
 
 void		order_list(t_list **a, int element_b, int *nb_rot)
 {
@@ -52,11 +59,8 @@ void		ft_quicksort(t_list **a, int pivot, int size, int *nb_rot)
 			push_b(a, &b);
 			element_b++;
 		}
-		else if ((*a)->content < pivot)
-		{
+		else if ((*a)->content < pivot && (*nb_rot = *nb_rot - 1))
 			rotate_a(a);
-			*nb_rot = *nb_rot - 1;
-		}
 		size--;
 	}
 	get_elements(a, &b, pivot);
@@ -72,9 +76,8 @@ void		push_sort(t_list **a, int lst_size, int size, int pivot)
 	nb_pivot = 0;
 	while (nb_pivot < lst_size)
 	{
-		while (*a && (*a)->content_size == 1)
+		while (*a && (*a)->content_size == 1 && (rotate_a(a)))
 		{
-			rotate_a(a);
 			nb_rotate--;
 			if (nb_rotate == 0)
 				nb_rotate = lst_size;

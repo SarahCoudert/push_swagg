@@ -1,19 +1,31 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   selection_tab.c                                    :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: scoudert <scoudert@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2015/09/29 17:43:07 by scoudert          #+#    #+#             */
+/*   Updated: 2015/09/29 17:43:08 by scoudert         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "push_swap.h"
 
 void			swap(int *a, int *b)
 {
-	int		temp;
+	int			temp;
 
 	temp = *a;
 	*a = *b;
 	*b = temp;
 }
 
-void		medianne(t_list *a, int *size, int nb_rot, int *pivot)
+void			medianne(t_list *a, int *size, int nb_rot, int *pivot)
 {
-	int		*tab;
-	int		i;
-	t_list *ptr;
+	int			*tab;
+	int			i;
+	t_list		*ptr;
 
 	ptr = a;
 	i = 0;
@@ -37,11 +49,11 @@ void		medianne(t_list *a, int *size, int nb_rot, int *pivot)
 	free(tab);
 }
 
-int			selection_tab(int *tab, int size)
+int				selection_tab(int *tab, int size)
 {
-	int		i;
-	int		min;
-	int		where;
+	int			i;
+	int			min;
+	int			where;
 
 	where = 0;
 	min = 0;

@@ -1,6 +1,18 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   rotate_fnc.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: scoudert <scoudert@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2015/09/29 17:37:25 by scoudert          #+#    #+#             */
+/*   Updated: 2015/09/29 17:37:26 by scoudert         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "push_swap.h"
 
-void		rotate_a(t_list **a)
+int			rotate_a(t_list **a)
 {
 	int		temp;
 	int		content_size_tmp;
@@ -21,12 +33,11 @@ void		rotate_a(t_list **a)
 		ft_deferputstr("\033[1;35mra\033[0m ");
 	else
 		ft_deferputstr("ra ");
+	return (1);
 }
-
 
 void		rotate_b(t_list **b)
 {
-	
 	int		temp;
 	int		content_size_tmp;
 	t_list	*alst;

@@ -6,16 +6,15 @@
 /*   By: scoudert <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/06/09 14:01:12 by scoudert          #+#    #+#             */
-/*   Updated: 2015/06/09 14:04:22 by scoudert         ###   ########.fr       */
+/*   Updated: 2015/09/29 17:45:07 by scoudert         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef _PUSH_SWAP_H
 # define _PUSH_SWAP_H
-
-#include <unistd.h>
-#include <stdlib.h>
-#include "libft.h"
+# include <unistd.h>
+# include <stdlib.h>
+# include "libft.h"
 
 void			read_list(t_list *list, char *name);
 void			test_function(t_list *a);
@@ -26,13 +25,13 @@ void			swap_b(t_list *b);
 void			ss(t_list *a, t_list *b);
 void			push_a(t_list **a, t_list **b);
 void			push_b(t_list **a, t_list **b);
-void			rotate_a(t_list **a);
+int				rotate_a(t_list **a);
 void			rotate_b(t_list **b);
 void			rr(t_list **a, t_list **b);
 void			reverse_rotate_a(t_list **a);
 void			reverse_rotate_b(t_list **b);
 void			rrr(t_list **a, t_list **b);
-void			selection(t_list **a, int size);
+void			selection(t_list **a, int size, int index);
 void			swap_element(t_list **a, t_list **b, int max, int way);
 void			get_elements(t_list **a, t_list **b, int pivot);
 int				check_order(t_list **ptr, int check);
@@ -46,7 +45,7 @@ void			three_elements(t_list **lst);
 void			swap_elements(int way, t_list **a, int pb);
 int				min_lst(t_list *a);
 void			two_elements(t_list **a);
-void			four_or_five_elements(int size, t_list ** a);
+void			four_or_five_elements(int size, t_list **a);
 
 typedef struct	s_bonus
 {
@@ -56,10 +55,10 @@ typedef struct	s_bonus
 
 t_bonus			g_bonus;
 
-enum			e_sens   	
+enum			e_sens
 {
-				UP,
-				DOWN
+	UP,
+	DOWN
 };
 
 #endif

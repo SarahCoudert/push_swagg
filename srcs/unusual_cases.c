@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   unusual_cases.c                                    :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: scoudert <scoudert@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2015/09/29 17:47:27 by scoudert          #+#    #+#             */
+/*   Updated: 2015/09/29 17:47:29 by scoudert         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "push_swap.h"
 
 void		three_elements(t_list **lst)
@@ -75,7 +87,7 @@ void		two_elements(t_list **a)
 		swap_a(*a);
 }
 
-void		four_or_five_elements(int size, t_list ** a)
+void		four_or_five_elements(int size, t_list **a)
 {
 	t_list	*b;
 	int		i;
@@ -91,7 +103,7 @@ void		four_or_five_elements(int size, t_list ** a)
 	two_elements(&b);
 	while (i < size)
 	{
-		if (b && b->content < (*a)->content || size - i == countelem(b))
+		if (b && (b->content < (*a)->content || size - i == countelem(b)))
 			push_a(a, &b);
 		else
 		{

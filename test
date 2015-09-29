@@ -1,0 +1,1760 @@
+! ./push_swap  gfkjgfd
+! ./push_swap  100gfkjgfd
+! ./push_swap  2147483648
+! ./push_swap  -2147483649
+! ./push_swap  10000000000
+! ./push_swap  -10000000000
+! ./push_swap  1 1
+./push_swap  42 -2147483648
+sa
+./push_swap  2147483647 42
+sa
+./push_swap  2147483647 42 -2147483648
+sa rra
+./push_swap  
+./push_swap  10
+
+./push_swap  10 20
+
+./push_swap  20 10
+sa
+./push_swap  10 20 30
+
+./push_swap  10 30 20
+rra sa
+./push_swap  30 10 20
+ra
+./push_swap  30 20 10
+sa rra
+./push_swap  20 30 10
+rra
+./push_swap  20 10 30
+sa
+./push_swap  10 20 30 40
+
+./push_swap  10 20 40 30
+rra rra sa ra ra
+./push_swap  10 40 20 30
+ra sa rra pb pb sa sa pa ra pa ra ra ra
+./push_swap  40 10 20 30
+sa pb pb sa pa ra ra ra pa ra
+./push_swap  40 10 30 20
+pb pb sa pa ra ra ra pa ra
+./push_swap  10 40 30 20
+pb pb sa sa pa ra ra ra pa ra
+./push_swap  10 30 40 20
+rra rra sa ra ra pb pb sa pa ra ra pa ra ra
+./push_swap  10 30 20 40
+ra sa rra
+./push_swap  30 10 20 40
+sa pb pb sa pa ra ra pa ra ra
+./push_swap  30 10 40 20
+pb pb sa pa ra ra pa ra ra
+./push_swap  30 40 10 20
+ra sa pb pb sa pa ra ra ra pa ra
+./push_swap  40 30 10 20
+pb pb ra ra pa ra pa ra
+./push_swap  40 30 20 10
+pb pb sa ra ra pa ra pa ra
+./push_swap  30 40 20 10
+pb pb sa sa ra ra pa ra pa ra
+./push_swap  30 20 40 10
+pb pb sa ra pa ra pa ra ra
+./push_swap  30 20 10 40
+pb pb ra pa ra pa ra ra
+./push_swap  20 30 10 40
+ra sa pb pb sa sa pa ra ra pa ra ra
+./push_swap  20 30 40 10
+rra rra sa pb pb sa pa ra ra ra pa ra
+./push_swap  20 40 30 10
+pb pb sa sa ra pa ra ra pa ra
+./push_swap  40 20 30 10
+pb pb sa ra pa ra ra pa ra
+./push_swap  40 20 10 30
+pb pb ra pa ra ra pa ra
+./push_swap  20 40 10 30
+ra sa pb pb sa sa pa ra ra ra pa ra
+./push_swap  20 10 40 30
+pb pb sa pa ra pa ra ra ra
+./push_swap  20 10 30 40
+sa
+./push_swap  10 20 30 40 50
+
+./push_swap  10 20 30 50 40
+rra rra sa ra ra
+./push_swap  10 20 50 30 40
+rra rra rra sa ra ra ra pb pb rra sa sa pa ra pa ra ra ra ra
+./push_swap  10 50 20 30 40
+ra sa rra pb pb ra sa pa ra pa ra ra ra ra
+./push_swap  50 10 20 30 40
+sa pb pb sa pa ra ra ra ra pa ra
+./push_swap  50 10 20 40 30
+pb pb rra sa pa ra ra ra ra pa ra
+./push_swap  10 50 20 40 30
+pb pb rra sa sa pa ra ra ra ra pa ra
+./push_swap  10 20 50 40 30
+pb pb sa rra sa pa ra pa ra ra ra ra
+./push_swap  10 20 40 50 30
+rra rra sa ra ra pb pb sa sa pa ra pa ra ra ra ra
+./push_swap  10 20 40 30 50
+rra rra rra sa ra ra ra
+./push_swap  10 40 20 30 50
+ra sa rra pb pb sa sa pa ra pa ra ra ra ra
+./push_swap  10 40 20 50 30
+pb pb rra sa sa pa ra ra ra pa ra ra
+./push_swap  10 40 50 20 30
+rra rra rra sa ra ra ra pb pb rra sa sa pa ra ra ra pa ra ra
+./push_swap  10 50 40 20 30
+pb pb ra sa pa ra ra ra ra pa ra
+./push_swap  50 10 40 20 30
+pb pb ra pa ra ra ra ra pa ra
+./push_swap  50 40 10 20 30
+pb pb ra ra ra pa ra pa ra
+./push_swap  40 50 10 20 30
+ra sa pb pb sa pa ra ra ra ra pa ra
+./push_swap  40 10 50 20 30
+pb pb ra pa ra ra ra pa ra ra
+./push_swap  40 10 20 50 30
+pb pb rra sa pa ra ra ra pa ra ra
+./push_swap  40 10 20 30 50
+sa pb pb sa pa ra ra ra pa ra ra
+./push_swap  40 10 30 20 50
+pb pb sa pa ra ra ra pa ra ra
+./push_swap  40 10 30 50 20
+pb pb rra pa ra ra ra pa ra ra
+./push_swap  40 10 50 30 20
+pb pb sa rra pa ra ra ra pa ra ra
+./push_swap  40 50 10 30 20
+pb pb rra sa sa ra ra ra pa ra pa ra
+./push_swap  50 40 10 30 20
+pb pb rra sa ra ra ra pa ra pa ra
+./push_swap  50 10 40 30 20
+pb pb sa rra pa ra ra ra ra pa ra
+./push_swap  10 50 40 30 20
+pb pb sa rra sa pa ra ra ra ra pa ra
+./push_swap  10 40 50 30 20
+pb pb sa rra sa pa ra ra ra pa ra ra
+./push_swap  10 40 30 50 20
+pb pb rra sa pa ra ra ra pa ra ra
+./push_swap  10 40 30 20 50
+pb pb sa sa pa ra ra ra pa ra ra
+./push_swap  10 30 40 20 50
+rra rra rra sa ra ra ra pb pb sa pa ra ra pa ra ra ra
+./push_swap  10 30 40 50 20
+rra rra sa ra ra pb pb sa sa pa ra ra pa ra ra ra
+./push_swap  10 30 50 40 20
+pb pb sa rra sa pa ra ra pa ra ra ra
+./push_swap  10 50 30 40 20
+pb pb rra sa pa ra ra ra ra pa ra
+./push_swap  50 10 30 40 20
+pb pb rra pa ra ra ra ra pa ra
+./push_swap  50 10 30 20 40
+pb pb sa pa ra ra ra ra pa ra
+./push_swap  10 50 30 20 40
+pb pb sa sa pa ra ra ra ra pa ra
+./push_swap  10 30 50 20 40
+rra rra rra sa ra ra ra pb pb rra sa sa pa ra ra pa ra ra ra
+./push_swap  10 30 20 50 40
+pb pb rra sa sa pa ra ra pa ra ra ra
+./push_swap  10 30 20 40 50
+ra sa rra
+./push_swap  30 10 20 40 50
+sa pb pb sa pa ra ra pa ra ra ra
+./push_swap  30 10 20 50 40
+pb pb rra sa pa ra ra pa ra ra ra
+./push_swap  30 10 50 20 40
+pb pb ra pa ra ra pa ra ra ra
+./push_swap  30 50 10 20 40
+ra sa pb pb rra sa sa pa ra ra ra ra pa ra
+./push_swap  50 30 10 20 40
+pb pb ra ra pa ra ra pa ra
+./push_swap  50 30 10 40 20
+pb pb rra sa ra ra pa ra ra pa ra
+./push_swap  30 50 10 40 20
+pb pb rra sa sa ra ra pa ra ra pa ra
+./push_swap  30 10 50 40 20
+pb pb sa rra pa ra ra pa ra ra ra
+./push_swap  30 10 40 50 20
+pb pb rra pa ra ra pa ra ra ra
+./push_swap  30 10 40 20 50
+pb pb sa pa ra ra pa ra ra ra
+./push_swap  30 40 10 20 50
+ra sa pb pb rra sa sa pa ra ra ra pa ra ra
+./push_swap  30 40 10 50 20
+pb pb rra sa sa ra ra pa ra pa ra ra
+./push_swap  30 40 50 10 20
+rra rra rra sa pb pb sa pa ra ra ra ra pa ra
+./push_swap  30 50 40 10 20
+pb pb ra sa ra ra pa ra ra pa ra
+./push_swap  50 30 40 10 20
+pb pb ra ra ra pa ra ra pa ra
+./push_swap  50 40 30 10 20
+pb pb ra ra ra ra pa ra pa ra
+./push_swap  40 50 30 10 20
+pb pb ra sa ra ra ra pa ra pa ra
+./push_swap  40 30 50 10 20
+pb pb ra ra ra pa ra pa ra ra
+./push_swap  40 30 10 50 20
+pb pb rra sa ra ra pa ra pa ra ra
+./push_swap  40 30 10 20 50
+pb pb ra ra pa ra pa ra ra
+./push_swap  40 30 20 10 50
+pb pb sa ra ra pa ra pa ra ra
+./push_swap  40 30 20 50 10
+pb pb rra ra ra pa ra pa ra ra
+./push_swap  40 30 50 20 10
+pb pb sa rra ra ra pa ra pa ra ra
+./push_swap  40 50 30 20 10
+pb pb sa rra sa ra ra ra pa ra pa ra
+./push_swap  50 40 30 20 10
+pb pb sa rra ra ra ra pa ra pa ra
+./push_swap  50 30 40 20 10
+pb pb sa rra ra ra pa ra ra pa ra
+./push_swap  30 50 40 20 10
+pb pb sa rra sa ra ra pa ra ra pa ra
+./push_swap  30 40 50 20 10
+pb pb sa rra sa ra ra pa ra pa ra ra
+./push_swap  30 40 20 50 10
+pb pb rra sa ra ra pa ra pa ra ra
+./push_swap  30 40 20 10 50
+pb pb sa sa ra ra pa ra pa ra ra
+./push_swap  30 20 40 10 50
+pb pb sa ra pa ra pa ra ra ra
+./push_swap  30 20 40 50 10
+pb pb rra ra pa ra pa ra ra ra
+./push_swap  30 20 50 40 10
+pb pb sa rra ra pa ra pa ra ra ra
+./push_swap  30 50 20 40 10
+pb pb rra sa ra ra pa ra ra pa ra
+./push_swap  50 30 20 40 10
+pb pb rra ra ra pa ra ra pa ra
+./push_swap  50 30 20 10 40
+pb pb sa ra ra pa ra ra pa ra
+./push_swap  30 50 20 10 40
+pb pb sa sa ra ra pa ra ra pa ra
+./push_swap  30 20 50 10 40
+pb pb ra ra pa ra pa ra ra ra
+./push_swap  30 20 10 50 40
+pb pb rra sa ra pa ra pa ra ra ra
+./push_swap  30 20 10 40 50
+pb pb ra pa ra pa ra ra ra
+./push_swap  20 30 10 40 50
+ra sa pb pb rra sa pa ra ra pa ra ra ra
+./push_swap  20 30 10 50 40
+pb pb rra sa sa ra pa ra pa ra ra ra
+./push_swap  20 30 50 10 40
+rra rra rra sa pb pb ra sa pa ra ra ra ra pa ra
+./push_swap  20 50 30 10 40
+pb pb sa sa ra pa ra ra ra pa ra
+./push_swap  50 20 30 10 40
+pb pb sa ra pa ra ra ra pa ra
+./push_swap  50 20 30 40 10
+pb pb rra ra pa ra ra ra pa ra
+./push_swap  20 50 30 40 10
+pb pb rra sa ra pa ra ra ra pa ra
+./push_swap  20 30 50 40 10
+pb pb sa rra sa ra pa ra pa ra ra ra
+./push_swap  20 30 40 50 10
+rra rra sa pb pb sa pa ra ra ra ra pa ra
+./push_swap  20 30 40 10 50
+rra rra rra sa pb pb ra sa pa ra ra ra pa ra ra
+./push_swap  20 40 30 10 50
+pb pb sa sa ra pa ra ra pa ra ra
+./push_swap  20 40 30 50 10
+pb pb rra sa ra pa ra ra pa ra ra
+./push_swap  20 40 50 30 10
+pb pb sa rra sa ra pa ra ra pa ra ra
+./push_swap  20 50 40 30 10
+pb pb sa rra sa ra pa ra ra ra pa ra
+./push_swap  50 20 40 30 10
+pb pb sa rra ra pa ra ra ra pa ra
+./push_swap  50 40 20 30 10
+pb pb rra ra ra ra pa ra pa ra
+./push_swap  40 50 20 30 10
+pb pb rra sa ra ra ra pa ra pa ra
+./push_swap  40 20 50 30 10
+pb pb sa rra ra pa ra ra pa ra ra
+./push_swap  40 20 30 50 10
+pb pb rra ra pa ra ra pa ra ra
+./push_swap  40 20 30 10 50
+pb pb sa ra pa ra ra pa ra ra
+./push_swap  40 20 10 30 50
+pb pb ra pa ra ra pa ra ra
+./push_swap  40 20 10 50 30
+pb pb rra sa ra pa ra ra pa ra ra
+./push_swap  40 20 50 10 30
+pb pb ra ra pa ra ra pa ra ra
+./push_swap  40 50 20 10 30
+pb pb sa sa ra ra ra pa ra pa ra
+./push_swap  50 40 20 10 30
+pb pb sa ra ra ra pa ra pa ra
+./push_swap  50 20 40 10 30
+pb pb ra ra pa ra ra ra pa ra
+./push_swap  20 50 40 10 30
+pb pb ra sa ra pa ra ra ra pa ra
+./push_swap  20 40 50 10 30
+rra rra rra sa pb pb sa sa pa ra ra ra ra pa ra
+./push_swap  20 40 10 50 30
+pb pb rra sa sa ra pa ra ra pa ra ra
+./push_swap  20 40 10 30 50
+ra sa pb pb rra sa pa ra ra ra pa ra ra
+./push_swap  20 10 40 30 50
+pb pb sa pa ra pa ra ra ra ra
+./push_swap  20 10 40 50 30
+pb pb rra pa ra pa ra ra ra ra
+./push_swap  20 10 50 40 30
+pb pb sa rra pa ra pa ra ra ra ra
+./push_swap  20 50 10 40 30
+pb pb rra sa sa ra pa ra ra ra pa ra
+./push_swap  50 20 10 40 30
+pb pb rra sa ra pa ra ra ra pa ra
+./push_swap  50 20 10 30 40
+pb pb ra pa ra ra ra pa ra
+./push_swap  20 50 10 30 40
+ra sa pb pb rra sa pa ra ra ra ra pa ra
+./push_swap  20 10 50 30 40
+pb pb ra pa ra pa ra ra ra ra
+./push_swap  20 10 30 50 40
+pb pb rra sa pa ra pa ra ra ra ra
+./push_swap  20 10 30 40 50
+sa
+./push_swap  10 20 30 40 50 60
+
+./push_swap  10 20 30 40 60 50
+rra rra sa ra ra
+./push_swap  10 20 30 60 40 50
+rra rra rra sa ra ra ra ra ra ra pb pb pb pa pa pa ra ra ra ra pb pb pa pa ra ra ra pb ra pa ra
+./push_swap  10 20 60 30 40 50
+ra ra sa rra rra ra ra ra pb pb pb pa rb pa pa ra ra ra ra pb pb pa pa ra ra ra pb ra pa ra
+./push_swap  10 60 20 30 40 50
+ra sa rra ra ra pb ra pb pb pa rb pa pa ra ra ra ra pb pb pa pa ra ra ra pb ra pa ra
+./push_swap  60 10 20 30 40 50
+sa ra pb ra ra pb pb pa rb pa pa ra ra ra ra pb pb pa pa ra ra ra pb ra pa ra
+./push_swap  60 10 20 30 50 40
+pb ra ra ra pb pb rb pa pa pa ra ra ra ra pb pb pa pa ra ra ra pb ra pa ra
+./push_swap  10 60 20 30 50 40
+ra pb ra ra pb pb rb pa pa pa ra ra ra ra pb pb pa pa ra ra ra pb ra pa ra
+./push_swap  10 20 60 30 50 40
+ra ra pb ra pb pb rb pa pa pa ra ra ra ra pb pb pa pa ra ra ra pb ra pa ra
+./push_swap  10 20 30 60 50 40
+ra ra ra pb pb pb rb pa pa pa ra ra ra ra pb pb pa pa ra ra ra pb ra pa ra
+./push_swap  10 20 30 50 60 40
+rra rra sa ra ra ra ra ra pb pb pb pa rb pa pa ra ra ra
+./push_swap  10 20 30 50 40 60
+rra rra rra sa ra ra ra
+./push_swap  10 20 50 30 40 60
+ra ra sa rra rra ra ra ra pb pb pb pa rb pa pa ra ra ra
+./push_swap  10 20 50 30 60 40
+ra ra pb ra pb pb rb pa pa pa ra ra ra
+./push_swap  10 20 50 60 30 40
+rra rra rra sa ra ra ra ra ra pb ra pb pb rb pa pa pa ra ra ra
+./push_swap  10 20 60 50 30 40
+ra ra pb pb ra pb rb pa pa pa ra ra ra ra pb pb pa pa ra ra ra pb ra pa ra
+./push_swap  10 60 20 50 30 40
+ra pb ra pb ra pb rb pa pa pa ra ra ra ra pb pb pa pa ra ra ra pb ra pa ra
+./push_swap  60 10 20 50 30 40
+pb ra ra pb ra pb rb pa pa pa ra ra ra ra pb pb pa pa ra ra ra pb ra pa ra
+./push_swap  60 10 50 20 30 40
+pb ra pb ra ra pb rb pa pa pa ra ra ra ra pb pb pa pa ra ra ra pb ra pa ra
+./push_swap  10 60 50 20 30 40
+ra pb pb ra ra pb rb pa pa pa ra ra ra ra pb pb pa pa ra ra ra pb ra pa ra
+./push_swap  10 50 60 20 30 40
+ra ra sa rra rra ra pb ra pb ra pb rb pa pa pa ra ra ra
+./push_swap  10 50 20 60 30 40
+ra pb ra pb ra pb rb pa pa pa ra ra ra
+./push_swap  10 50 20 30 60 40
+ra pb ra ra pb pb rb pa pa pa ra ra ra
+./push_swap  10 50 20 30 40 60
+ra sa rra ra ra pb ra pb pb pa rb pa pa ra ra ra
+./push_swap  50 10 20 30 40 60
+sa ra pb ra ra pb pb pa rb pa pa ra ra ra
+./push_swap  50 10 20 30 60 40
+pb ra ra ra pb pb rb pa pa pa ra ra ra
+./push_swap  50 10 20 60 30 40
+pb ra ra pb ra pb rb pa pa pa ra ra ra
+./push_swap  50 10 60 20 30 40
+pb ra pb ra ra pb rb pa pa pa ra ra ra
+./push_swap  50 60 10 20 30 40
+ra sa ra pb ra ra pb pb pa rb pa pa ra ra ra ra pb pb pa pa ra ra ra pb ra pa ra
+./push_swap  60 50 10 20 30 40
+pb pb ra ra ra pb rb pa pa pa ra ra ra ra pb pb pa pa ra ra ra pb ra pa ra
+./push_swap  60 50 10 20 40 30
+pb pb ra ra pb ra rb pa pa pa ra ra ra ra pb pb pa pa ra ra ra pb ra pa ra
+./push_swap  50 60 10 20 40 30
+pb pb ra ra pb ra rb pa pa pa ra ra ra
+./push_swap  50 10 60 20 40 30
+pb ra pb ra pb ra rb pa pa pa ra ra ra
+./push_swap  50 10 20 60 40 30
+pb ra ra pb pb ra rb pa pa pa ra ra ra
+./push_swap  50 10 20 40 60 30
+pb ra ra pb pb ra pa rb pa pa ra ra ra
+./push_swap  50 10 20 40 30 60
+pb ra ra pb ra pb pa rb pa pa ra ra ra
+./push_swap  10 50 20 40 30 60
+ra pb ra pb ra pb pa rb pa pa ra ra ra
+./push_swap  10 50 20 40 60 30
+ra pb ra pb pb ra pa rb pa pa ra ra ra
+./push_swap  10 50 20 60 40 30
+ra pb ra pb pb ra rb pa pa pa ra ra ra
+./push_swap  10 50 60 20 40 30
+ra pb pb ra pb ra rb pa pa pa ra ra ra
+./push_swap  10 60 50 20 40 30
+ra pb pb ra pb ra rb pa pa pa ra ra ra ra pb pb pa pa ra ra ra pb ra pa ra
+./push_swap  60 10 50 20 40 30
+pb ra pb ra pb ra rb pa pa pa ra ra ra ra pb pb pa pa ra ra ra pb ra pa ra
+./push_swap  60 10 20 50 40 30
+pb ra ra pb pb ra rb pa pa pa ra ra ra ra pb pb pa pa ra ra ra pb ra pa ra
+./push_swap  10 60 20 50 40 30
+ra pb ra pb pb ra rb pa pa pa ra ra ra ra pb pb pa pa ra ra ra pb ra pa ra
+./push_swap  10 20 60 50 40 30
+ra ra pb pb pb ra rb pa pa pa ra ra ra ra pb pb pa pa ra ra ra pb ra pa ra
+./push_swap  10 20 50 60 40 30
+ra ra pb pb pb ra rb pa pa pa ra ra ra
+./push_swap  10 20 50 40 60 30
+ra ra pb pb pb ra pa rb pa pa ra ra ra
+./push_swap  10 20 50 40 30 60
+ra ra pb pb ra pb pa rb pa pa ra ra ra
+./push_swap  10 20 40 50 30 60
+rra rra rra sa ra ra ra ra ra pb ra pb pb pa pa pa ra ra ra
+./push_swap  10 20 40 50 60 30
+rra rra sa ra ra ra ra pb pb ra pb pa pa pa ra ra ra
+./push_swap  10 20 40 60 50 30
+ra ra pb pb pb ra pa pa pa ra ra ra ra pb pb pa pa ra ra ra pb ra pa ra
+./push_swap  10 20 60 40 50 30
+ra ra pb pb pb ra pa rb pa pa ra ra ra ra pb pb pa pa ra ra ra pb ra pa ra
+./push_swap  10 60 20 40 50 30
+ra pb ra pb pb ra pa rb pa pa ra ra ra ra pb pb pa pa ra ra ra pb ra pa ra
+./push_swap  60 10 20 40 50 30
+pb ra ra pb pb ra pa rb pa pa ra ra ra ra pb pb pa pa ra ra ra pb ra pa ra
+./push_swap  60 10 20 40 30 50
+pb ra ra pb ra pb pa rb pa pa ra ra ra ra pb pb pa pa ra ra ra pb ra pa ra
+./push_swap  10 60 20 40 30 50
+ra pb ra pb ra pb pa rb pa pa ra ra ra ra pb pb pa pa ra ra ra pb ra pa ra
+./push_swap  10 20 60 40 30 50
+ra ra pb pb ra pb pa rb pa pa ra ra ra ra pb pb pa pa ra ra ra pb ra pa ra
+./push_swap  10 20 40 60 30 50
+rra rra rra sa ra ra ra ra ra pb ra pb pb pa pa pa ra ra ra ra pb pb pa pa ra ra ra pb ra pa ra
+./push_swap  10 20 40 30 60 50
+ra ra pb ra pb pb pa pa pa ra ra ra ra pb pb pa pa ra ra ra pb ra pa ra
+./push_swap  10 20 40 30 50 60
+ra ra sa rra rra
+./push_swap  10 40 20 30 50 60
+ra sa rra ra ra pb ra pb pb pa pa pa ra ra ra
+./push_swap  10 40 20 30 60 50
+ra pb ra ra pb pb pa pa pa ra ra ra ra pb pb pa pa ra ra ra pb ra pa ra
+./push_swap  10 40 20 60 30 50
+ra pb ra pb ra pb pa pa pa ra ra ra ra pb pb pa pa ra ra ra pb ra pa ra
+./push_swap  10 40 60 20 30 50
+ra ra sa rra rra ra pb ra pb ra pb pa pa pa ra ra ra ra pb pb pa pa ra ra ra pb ra pa ra
+./push_swap  10 60 40 20 30 50
+ra pb pb ra ra pb pa rb pa pa ra ra ra ra pb pb pa pa ra ra ra pb ra pa ra
+./push_swap  60 10 40 20 30 50
+pb ra pb ra ra pb pa rb pa pa ra ra ra ra pb pb pa pa ra ra ra pb ra pa ra
+./push_swap  60 10 40 20 50 30
+pb ra pb ra pb ra pa rb pa pa ra ra ra ra pb pb pa pa ra ra ra pb ra pa ra
+./push_swap  10 60 40 20 50 30
+ra pb pb ra pb ra pa rb pa pa ra ra ra ra pb pb pa pa ra ra ra pb ra pa ra
+./push_swap  10 40 60 20 50 30
+ra pb pb ra pb ra pa pa pa ra ra ra ra pb pb pa pa ra ra ra pb ra pa ra
+./push_swap  10 40 20 60 50 30
+ra pb ra pb pb ra pa pa pa ra ra ra ra pb pb pa pa ra ra ra pb ra pa ra
+./push_swap  10 40 20 50 60 30
+ra pb ra pb pb ra pa pa pa ra ra ra
+./push_swap  10 40 20 50 30 60
+ra pb ra pb ra pb pa pa pa ra ra ra
+./push_swap  10 40 50 20 30 60
+ra ra sa rra rra ra pb ra pb ra pb pa pa pa ra ra ra
+./push_swap  10 40 50 20 60 30
+ra pb pb ra pb ra pa pa pa ra ra ra
+./push_swap  10 40 50 60 20 30
+rra rra rra sa ra ra ra ra pb pb ra pb ra pa pa pa ra ra ra
+./push_swap  10 40 60 50 20 30
+ra pb pb pb ra ra pa pa pa ra ra ra ra pb pb pa pa ra ra ra pb ra pa ra
+./push_swap  10 60 40 50 20 30
+ra pb pb pb ra ra pa rb pa pa ra ra ra ra pb pb pa pa ra ra ra pb ra pa ra
+./push_swap  60 10 40 50 20 30
+pb ra pb pb ra ra pa rb pa pa ra ra ra ra pb pb pa pa ra ra ra pb ra pa ra
+./push_swap  60 10 50 40 20 30
+pb ra pb pb ra ra rb pa pa pa ra ra ra ra pb pb pa pa ra ra ra pb ra pa ra
+./push_swap  10 60 50 40 20 30
+ra pb pb pb ra ra rb pa pa pa ra ra ra ra pb pb pa pa ra ra ra pb ra pa ra
+./push_swap  10 50 60 40 20 30
+ra pb pb pb ra ra rb pa pa pa ra ra ra
+./push_swap  10 50 40 60 20 30
+ra pb pb pb ra ra pa rb pa pa ra ra ra
+./push_swap  10 50 40 20 60 30
+ra pb pb ra pb ra pa rb pa pa ra ra ra
+./push_swap  10 50 40 20 30 60
+ra pb pb ra ra pb pa rb pa pa ra ra ra
+./push_swap  50 10 40 20 30 60
+pb ra pb ra ra pb pa rb pa pa ra ra ra
+./push_swap  50 10 40 20 60 30
+pb ra pb ra pb ra pa rb pa pa ra ra ra
+./push_swap  50 10 40 60 20 30
+pb ra pb pb ra ra pa rb pa pa ra ra ra
+./push_swap  50 10 60 40 20 30
+pb ra pb pb ra ra rb pa pa pa ra ra ra
+./push_swap  50 60 10 40 20 30
+pb pb ra pb ra ra rb pa pa pa ra ra ra
+./push_swap  60 50 10 40 20 30
+pb pb ra pb ra ra rb pa pa pa ra ra ra ra pb pb pa pa ra ra ra pb ra pa ra
+./push_swap  60 50 40 10 20 30
+pb pb pb ra ra ra rb pa pa pa ra ra ra ra pb pb pa pa ra ra ra pb ra pa ra
+./push_swap  50 60 40 10 20 30
+pb pb pb ra ra ra rb pa pa pa ra ra ra
+./push_swap  50 40 60 10 20 30
+pb pb pb ra ra ra pa rb pa pa ra ra ra
+./push_swap  50 40 10 60 20 30
+pb pb ra pb ra ra pa rb pa pa ra ra ra
+./push_swap  50 40 10 20 60 30
+pb pb ra ra pb ra pa rb pa pa ra ra ra
+./push_swap  50 40 10 20 30 60
+pb pb ra ra ra pb pa rb pa pa ra ra ra
+./push_swap  40 50 10 20 30 60
+ra sa ra pb ra ra pb pb rb pa pa pa ra ra ra
+./push_swap  40 50 10 20 60 30
+pb pb ra ra pb ra pa pa pa ra ra ra
+./push_swap  40 50 10 60 20 30
+pb pb ra pb ra ra pa pa pa ra ra ra
+./push_swap  40 50 60 10 20 30
+ra ra sa ra pb ra ra pb pb pa rb pa pa ra ra ra ra pb pb pa pa ra ra ra pb ra pa ra
+./push_swap  40 60 50 10 20 30
+pb pb pb ra ra ra pa pa pa ra ra ra ra pb pb pa pa ra ra ra pb ra pa ra
+./push_swap  60 40 50 10 20 30
+pb pb pb ra ra ra pa rb pa pa ra ra ra ra pb pb pa pa ra ra ra pb ra pa ra
+./push_swap  60 40 10 50 20 30
+pb pb ra pb ra ra pa rb pa pa ra ra ra ra pb pb pa pa ra ra ra pb ra pa ra
+./push_swap  40 60 10 50 20 30
+pb pb ra pb ra ra pa pa pa ra ra ra ra pb pb pa pa ra ra ra pb ra pa ra
+./push_swap  40 10 60 50 20 30
+pb ra pb pb ra ra pa pa pa ra ra ra ra pb pb pa pa ra ra ra pb ra pa ra
+./push_swap  40 10 50 60 20 30
+pb ra pb pb ra ra pa pa pa ra ra ra
+./push_swap  40 10 50 20 60 30
+pb ra pb ra pb ra pa pa pa ra ra ra
+./push_swap  40 10 50 20 30 60
+pb ra pb ra ra pb pa pa pa ra ra ra
+./push_swap  40 10 20 50 30 60
+pb ra ra pb ra pb pa pa pa ra ra ra
+./push_swap  40 10 20 50 60 30
+pb ra ra pb pb ra pa pa pa ra ra ra
+./push_swap  40 10 20 60 50 30
+pb ra ra pb pb ra pa pa pa ra ra ra ra pb pb pa pa ra ra ra pb ra pa ra
+./push_swap  40 10 60 20 50 30
+pb ra pb ra pb ra pa pa pa ra ra ra ra pb pb pa pa ra ra ra pb ra pa ra
+./push_swap  40 60 10 20 50 30
+pb pb ra ra pb ra pa pa pa ra ra ra ra pb pb pa pa ra ra ra pb ra pa ra
+./push_swap  60 40 10 20 50 30
+pb pb ra ra pb ra pa rb pa pa ra ra ra ra pb pb pa pa ra ra ra pb ra pa ra
+./push_swap  60 40 10 20 30 50
+pb pb ra ra ra pb pa rb pa pa ra ra ra ra pb pb pa pa ra ra ra pb ra pa ra
+./push_swap  40 60 10 20 30 50
+ra sa ra pb ra ra pb pb rb pa pa pa ra ra ra ra pb pb pa pa ra ra ra pb ra pa ra
+./push_swap  40 10 60 20 30 50
+pb ra pb ra ra pb pa pa pa ra ra ra ra pb pb pa pa ra ra ra pb ra pa ra
+./push_swap  40 10 20 60 30 50
+pb ra ra pb ra pb pa pa pa ra ra ra ra pb pb pa pa ra ra ra pb ra pa ra
+./push_swap  40 10 20 30 60 50
+pb ra ra ra pb pb pa pa pa ra ra ra ra pb pb pa pa ra ra ra pb ra pa ra
+./push_swap  40 10 20 30 50 60
+sa ra pb ra ra pb pb pa pa pa ra ra ra
+./push_swap  40 10 30 20 50 60
+pb ra ra ra pb pb pa pa pa ra ra ra ra pb pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  40 10 30 20 60 50
+pb ra ra ra pb pb pa pa pa ra ra ra ra pb pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  40 10 30 60 20 50
+pb ra ra pb ra pb pa pa pa ra ra ra ra pb pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  40 10 60 30 20 50
+pb ra pb ra ra pb pa pa pa ra ra ra ra pb pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  40 60 10 30 20 50
+pb pb ra ra ra pb pa pa pa ra ra ra ra pb pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  60 40 10 30 20 50
+pb pb ra ra ra pb pa rb pa pa ra ra ra ra pb pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  60 40 10 30 50 20
+pb pb ra ra pb ra pa rb pa pa ra ra ra ra pb pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  40 60 10 30 50 20
+pb pb ra ra pb ra pa pa pa ra ra ra ra pb pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  40 10 60 30 50 20
+pb ra pb ra pb ra pa pa pa ra ra ra ra pb pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  40 10 30 60 50 20
+pb ra ra pb pb ra pa pa pa ra ra ra ra pb pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  40 10 30 50 60 20
+pb ra ra pb pb ra pa pa pa ra ra ra ra pb pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  40 10 30 50 20 60
+pb ra ra pb ra pb pa pa pa ra ra ra ra pb pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  40 10 50 30 20 60
+pb ra pb ra ra pb pa pa pa ra ra ra ra pb pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  40 10 50 30 60 20
+pb ra pb ra pb ra pa pa pa ra ra ra ra pb pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  40 10 50 60 30 20
+pb ra pb pb ra ra pa pa pa ra ra ra ra pb pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  40 10 60 50 30 20
+pb ra pb pb ra ra pa pa pa ra ra ra ra pb pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  40 60 10 50 30 20
+pb pb ra pb ra ra pa pa pa ra ra ra ra pb pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  60 40 10 50 30 20
+pb pb ra pb ra ra pa rb pa pa ra ra ra ra pb pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  60 40 50 10 30 20
+pb pb pb ra ra ra pa rb pa pa ra ra ra ra pb pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  40 60 50 10 30 20
+pb pb pb ra ra ra pa pa pa ra ra ra ra pb pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  40 50 60 10 30 20
+pb pb pb ra ra ra pa pa pa ra ra ra ra pb pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  40 50 10 60 30 20
+pb pb ra pb ra ra pa pa pa ra ra ra ra pb pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  40 50 10 30 60 20
+pb pb ra ra pb ra pa pa pa ra ra ra ra pb pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  40 50 10 30 20 60
+pb pb ra ra ra pb pa pa pa ra ra ra ra pb pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  50 40 10 30 20 60
+pb pb ra ra ra pb pa rb pa pa ra ra ra ra pb pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  50 40 10 30 60 20
+pb pb ra ra pb ra pa rb pa pa ra ra ra ra pb pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  50 40 10 60 30 20
+pb pb ra pb ra ra pa rb pa pa ra ra ra ra pb pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  50 40 60 10 30 20
+pb pb pb ra ra ra pa rb pa pa ra ra ra ra pb pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  50 60 40 10 30 20
+pb pb pb ra ra ra rb pa pa pa ra ra ra ra pb pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  60 50 40 10 30 20
+pb pb pb ra ra ra rb pa pa pa ra ra ra ra pb pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  60 50 10 40 30 20
+pb pb ra pb ra ra rb pa pa pa ra ra ra ra pb pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  50 60 10 40 30 20
+pb pb ra pb ra ra rb pa pa pa ra ra ra ra pb pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  50 10 60 40 30 20
+pb ra pb pb ra ra rb pa pa pa ra ra ra ra pb pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  50 10 40 60 30 20
+pb ra pb pb ra ra pa rb pa pa ra ra ra ra pb pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  50 10 40 30 60 20
+pb ra pb ra pb ra pa rb pa pa ra ra ra ra pb pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  50 10 40 30 20 60
+pb ra pb ra ra pb pa rb pa pa ra ra ra ra pb pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  10 50 40 30 20 60
+ra pb pb ra ra pb pa rb pa pa ra ra ra ra pb pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  10 50 40 30 60 20
+ra pb pb ra pb ra pa rb pa pa ra ra ra ra pb pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  10 50 40 60 30 20
+ra pb pb pb ra ra pa rb pa pa ra ra ra ra pb pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  10 50 60 40 30 20
+ra pb pb pb ra ra rb pa pa pa ra ra ra ra pb pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  10 60 50 40 30 20
+ra pb pb pb ra ra rb pa pa pa ra ra ra ra pb pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  60 10 50 40 30 20
+pb ra pb pb ra ra rb pa pa pa ra ra ra ra pb pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  60 10 40 50 30 20
+pb ra pb pb ra ra pa rb pa pa ra ra ra ra pb pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  10 60 40 50 30 20
+ra pb pb pb ra ra pa rb pa pa ra ra ra ra pb pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  10 40 60 50 30 20
+ra pb pb pb ra ra pa pa pa ra ra ra ra pb pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  10 40 50 60 30 20
+ra pb pb pb ra ra pa pa pa ra ra ra ra pb pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  10 40 50 30 60 20
+ra pb pb ra pb ra pa pa pa ra ra ra ra pb pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  10 40 50 30 20 60
+ra pb pb ra ra pb pa pa pa ra ra ra ra pb pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  10 40 30 50 20 60
+ra pb ra pb ra pb pa pa pa ra ra ra ra pb pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  10 40 30 50 60 20
+ra pb ra pb pb ra pa pa pa ra ra ra ra pb pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  10 40 30 60 50 20
+ra pb ra pb pb ra pa pa pa ra ra ra ra pb pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  10 40 60 30 50 20
+ra pb pb ra pb ra pa pa pa ra ra ra ra pb pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  10 60 40 30 50 20
+ra pb pb ra pb ra pa rb pa pa ra ra ra ra pb pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  60 10 40 30 50 20
+pb ra pb ra pb ra pa rb pa pa ra ra ra ra pb pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  60 10 40 30 20 50
+pb ra pb ra ra pb pa rb pa pa ra ra ra ra pb pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  10 60 40 30 20 50
+ra pb pb ra ra pb pa rb pa pa ra ra ra ra pb pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  10 40 60 30 20 50
+ra pb pb ra ra pb pa pa pa ra ra ra ra pb pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  10 40 30 60 20 50
+ra pb ra pb ra pb pa pa pa ra ra ra ra pb pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  10 40 30 20 60 50
+ra pb ra ra pb pb pa pa pa ra ra ra ra pb pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  10 40 30 20 50 60
+ra pb ra ra pb pb pa pa pa ra ra ra ra pb pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  10 30 40 20 50 60
+ra ra sa rra rra ra ra ra pb pb pb pa pa pa ra ra ra ra pb pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  10 30 40 20 60 50
+ra ra pb ra pb pb pa pa pa ra ra ra ra pb pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  10 30 40 60 20 50
+rra rra rra sa ra ra ra ra ra pb ra pb pb pa pa pa ra ra ra ra pb pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  10 30 60 40 20 50
+ra ra pb pb ra pb pa rb pa pa ra ra ra ra pb pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  10 60 30 40 20 50
+ra pb ra pb ra pb pa rb pa pa ra ra ra ra pb pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  60 10 30 40 20 50
+pb ra ra pb ra pb pa rb pa pa ra ra ra ra pb pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  60 10 30 40 50 20
+pb ra ra pb pb ra pa rb pa pa ra ra ra ra pb pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  10 60 30 40 50 20
+ra pb ra pb pb ra pa rb pa pa ra ra ra ra pb pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  10 30 60 40 50 20
+ra ra pb pb pb ra pa rb pa pa ra ra ra ra pb pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  10 30 40 60 50 20
+ra ra pb pb pb ra pa pa pa ra ra ra ra pb pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  10 30 40 50 60 20
+rra rra sa ra ra ra ra pb pb ra pb pa pa pa ra ra ra ra pb pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  10 30 40 50 20 60
+rra rra rra sa ra ra ra ra ra pb ra pb pb pa pa pa ra ra ra ra pb pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  10 30 50 40 20 60
+ra ra pb pb ra pb pa rb pa pa ra ra ra ra pb pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  10 30 50 40 60 20
+ra ra pb pb pb ra pa rb pa pa ra ra ra ra pb pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  10 30 50 60 40 20
+ra ra pb pb pb ra rb pa pa pa ra ra ra ra pb pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  10 30 60 50 40 20
+ra ra pb pb pb ra rb pa pa pa ra ra ra ra pb pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  10 60 30 50 40 20
+ra pb ra pb pb ra rb pa pa pa ra ra ra ra pb pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  60 10 30 50 40 20
+pb ra ra pb pb ra rb pa pa pa ra ra ra ra pb pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  60 10 50 30 40 20
+pb ra pb ra pb ra rb pa pa pa ra ra ra ra pb pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  10 60 50 30 40 20
+ra pb pb ra pb ra rb pa pa pa ra ra ra ra pb pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  10 50 60 30 40 20
+ra pb pb ra pb ra rb pa pa pa ra ra ra ra pb pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  10 50 30 60 40 20
+ra pb ra pb pb ra rb pa pa pa ra ra ra ra pb pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  10 50 30 40 60 20
+ra pb ra pb pb ra pa rb pa pa ra ra ra ra pb pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  10 50 30 40 20 60
+ra pb ra pb ra pb pa rb pa pa ra ra ra ra pb pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  50 10 30 40 20 60
+pb ra ra pb ra pb pa rb pa pa ra ra ra ra pb pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  50 10 30 40 60 20
+pb ra ra pb pb ra pa rb pa pa ra ra ra ra pb pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  50 10 30 60 40 20
+pb ra ra pb pb ra rb pa pa pa ra ra ra ra pb pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  50 10 60 30 40 20
+pb ra pb ra pb ra rb pa pa pa ra ra ra ra pb pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  50 60 10 30 40 20
+pb pb ra ra pb ra rb pa pa pa ra ra ra ra pb pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  60 50 10 30 40 20
+pb pb ra ra pb ra rb pa pa pa ra ra ra ra pb pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  60 50 10 30 20 40
+pb pb ra ra ra pb rb pa pa pa ra ra ra ra pb pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  50 60 10 30 20 40
+pb pb ra ra ra pb rb pa pa pa ra ra ra ra pb pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  50 10 60 30 20 40
+pb ra pb ra ra pb rb pa pa pa ra ra ra ra pb pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  50 10 30 60 20 40
+pb ra ra pb ra pb rb pa pa pa ra ra ra ra pb pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  50 10 30 20 60 40
+pb ra ra ra pb pb rb pa pa pa ra ra ra ra pb pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  50 10 30 20 40 60
+pb ra ra ra pb pb pa rb pa pa ra ra ra ra pb pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  10 50 30 20 40 60
+ra pb ra ra pb pb pa rb pa pa ra ra ra ra pb pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  10 50 30 20 60 40
+ra pb ra ra pb pb rb pa pa pa ra ra ra ra pb pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  10 50 30 60 20 40
+ra pb ra pb ra pb rb pa pa pa ra ra ra ra pb pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  10 50 60 30 20 40
+ra pb pb ra ra pb rb pa pa pa ra ra ra ra pb pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  10 60 50 30 20 40
+ra pb pb ra ra pb rb pa pa pa ra ra ra ra pb pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  60 10 50 30 20 40
+pb ra pb ra ra pb rb pa pa pa ra ra ra ra pb pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  60 10 30 50 20 40
+pb ra ra pb ra pb rb pa pa pa ra ra ra ra pb pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  10 60 30 50 20 40
+ra pb ra pb ra pb rb pa pa pa ra ra ra ra pb pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  10 30 60 50 20 40
+ra ra pb pb ra pb rb pa pa pa ra ra ra ra pb pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  10 30 50 60 20 40
+rra rra rra sa ra ra ra ra ra pb ra pb pb rb pa pa pa ra ra ra ra pb pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  10 30 50 20 60 40
+ra ra pb ra pb pb rb pa pa pa ra ra ra ra pb pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  10 30 50 20 40 60
+ra ra sa rra rra ra ra ra pb pb pb pa rb pa pa ra ra ra ra pb pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  10 30 20 50 40 60
+ra ra ra pb pb pb pa rb pa pa ra ra ra ra pb pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  10 30 20 50 60 40
+ra ra ra pb pb pb rb pa pa pa ra ra ra ra pb pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  10 30 20 60 50 40
+ra ra ra pb pb pb rb pa pa pa ra ra ra ra pb pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  10 30 60 20 50 40
+ra ra pb ra pb pb rb pa pa pa ra ra ra ra pb pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  10 60 30 20 50 40
+ra pb ra ra pb pb rb pa pa pa ra ra ra ra pb pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  60 10 30 20 50 40
+pb ra ra ra pb pb rb pa pa pa ra ra ra ra pb pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  60 10 30 20 40 50
+pb ra ra ra pb pb pa rb pa pa ra ra ra ra pb pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  10 60 30 20 40 50
+ra pb ra ra pb pb pa rb pa pa ra ra ra ra pb pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  10 30 60 20 40 50
+ra ra sa rra rra ra ra ra pb pb pb pa rb pa pa ra ra ra ra pb pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  10 30 20 60 40 50
+ra ra ra pb pb pb pa rb pa pa ra ra ra ra pb pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  10 30 20 40 60 50
+ra ra ra pb pb pb pa pa pa ra ra ra ra pb pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  10 30 20 40 50 60
+ra sa rra
+./push_swap  30 10 20 40 50 60
+sa ra ra ra pb pb pb pa pa pa ra ra ra ra pb pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  30 10 20 40 60 50
+ra ra ra pb pb pb pa pa pa ra ra ra pb ra pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  30 10 20 60 40 50
+ra ra ra pb pb pb pa rb pa pa ra ra ra pb ra pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  30 10 60 20 40 50
+ra ra pb ra pb pb pa rb pa pa ra ra ra pb ra pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  30 60 10 20 40 50
+ra sa ra pb ra pb pb ra pa rb pa pa ra ra ra ra pb pb pa pa ra ra ra pb ra pa ra
+./push_swap  60 30 10 20 40 50
+pb ra ra ra pb pb pa rb pa pa ra ra ra pb ra pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  60 30 10 20 50 40
+pb ra ra ra pb pb rb pa pa pa ra ra ra pb ra pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  30 60 10 20 50 40
+ra pb ra ra pb pb rb pa pa pa ra ra ra pb ra pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  30 10 60 20 50 40
+ra ra pb ra pb pb rb pa pa pa ra ra ra pb ra pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  30 10 20 60 50 40
+ra ra ra pb pb pb rb pa pa pa ra ra ra pb ra pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  30 10 20 50 60 40
+ra ra ra pb pb pb rb pa pa pa ra ra ra pb ra pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  30 10 20 50 40 60
+ra ra ra pb pb pb pa rb pa pa ra ra ra pb ra pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  30 10 50 20 40 60
+ra ra pb ra pb pb pa rb pa pa ra ra ra pb ra pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  30 10 50 20 60 40
+ra ra pb ra pb pb rb pa pa pa ra ra ra pb ra pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  30 10 50 60 20 40
+ra ra pb pb ra pb rb pa pa pa ra ra ra pb ra pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  30 10 60 50 20 40
+ra ra pb pb ra pb rb pa pa pa ra ra ra pb ra pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  30 60 10 50 20 40
+ra pb ra pb ra pb rb pa pa pa ra ra ra pb ra pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  60 30 10 50 20 40
+pb ra ra pb ra pb rb pa pa pa ra ra ra pb ra pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  60 30 50 10 20 40
+pb ra pb ra ra pb rb pa pa pa ra ra ra pb ra pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  30 60 50 10 20 40
+ra pb pb ra ra pb rb pa pa pa ra ra ra pb ra pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  30 50 60 10 20 40
+ra ra sa ra pb ra pb ra pb pa rb pa pa ra ra ra ra pb pb pa pa ra ra ra pb ra pa ra
+./push_swap  30 50 10 60 20 40
+ra pb ra pb ra pb rb pa pa pa ra ra ra pb ra pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  30 50 10 20 60 40
+ra pb ra ra pb pb rb pa pa pa ra ra ra pb ra pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  30 50 10 20 40 60
+ra sa ra pb ra pb pb ra pa rb pa pa ra ra ra
+./push_swap  50 30 10 20 40 60
+pb ra ra ra pb pb pa rb pa pa ra ra ra pb ra pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  50 30 10 20 60 40
+pb ra ra ra pb pb rb pa pa pa ra ra ra pb ra pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  50 30 10 60 20 40
+pb ra ra pb ra pb rb pa pa pa ra ra ra pb ra pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  50 30 60 10 20 40
+pb ra pb ra ra pb rb pa pa pa ra ra ra pb ra pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  50 60 30 10 20 40
+pb pb ra ra ra pb rb pa pa pa ra ra ra pb ra pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  60 50 30 10 20 40
+pb pb ra ra ra pb rb pa pa pa ra ra ra pb ra pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  60 50 30 10 40 20
+pb pb ra ra pb ra rb pa pa pa ra ra ra pb ra pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  50 60 30 10 40 20
+pb pb ra ra pb ra rb pa pa pa ra ra ra pb ra pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  50 30 60 10 40 20
+pb ra pb ra pb ra rb pa pa pa ra ra ra pb ra pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  50 30 10 60 40 20
+pb ra ra pb pb ra rb pa pa pa ra ra ra pb ra pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  50 30 10 40 60 20
+pb ra ra pb pb ra pa rb pa pa ra ra ra pb ra pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  50 30 10 40 20 60
+pb ra ra pb ra pb pa rb pa pa ra ra ra pb ra pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  30 50 10 40 20 60
+ra pb ra pb ra pb pa rb pa pa ra ra ra pb ra pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  30 50 10 40 60 20
+ra pb ra pb pb ra pa rb pa pa ra ra ra pb ra pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  30 50 10 60 40 20
+ra pb ra pb pb ra rb pa pa pa ra ra ra pb ra pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  30 50 60 10 40 20
+ra pb pb ra pb ra rb pa pa pa ra ra ra pb ra pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  30 60 50 10 40 20
+ra pb pb ra pb ra rb pa pa pa ra ra ra pb ra pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  60 30 50 10 40 20
+pb ra pb ra pb ra rb pa pa pa ra ra ra pb ra pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  60 30 10 50 40 20
+pb ra ra pb pb ra rb pa pa pa ra ra ra pb ra pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  30 60 10 50 40 20
+ra pb ra pb pb ra rb pa pa pa ra ra ra pb ra pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  30 10 60 50 40 20
+ra ra pb pb pb ra rb pa pa pa ra ra ra pb ra pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  30 10 50 60 40 20
+ra ra pb pb pb ra rb pa pa pa ra ra ra pb ra pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  30 10 50 40 60 20
+ra ra pb pb pb ra pa rb pa pa ra ra ra pb ra pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  30 10 50 40 20 60
+ra ra pb pb ra pb pa rb pa pa ra ra ra pb ra pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  30 10 40 50 20 60
+ra ra pb pb ra pb pa pa pa ra ra ra pb ra pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  30 10 40 50 60 20
+ra ra pb pb pb ra pa pa pa ra ra ra pb ra pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  30 10 40 60 50 20
+ra ra pb pb pb ra pa pa pa ra ra ra pb ra pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  30 10 60 40 50 20
+ra ra pb pb pb ra pa rb pa pa ra ra ra pb ra pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  30 60 10 40 50 20
+ra pb ra pb pb ra pa rb pa pa ra ra ra pb ra pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  60 30 10 40 50 20
+pb ra ra pb pb ra pa rb pa pa ra ra ra pb ra pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  60 30 10 40 20 50
+pb ra ra pb ra pb pa rb pa pa ra ra ra pb ra pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  30 60 10 40 20 50
+ra pb ra pb ra pb pa rb pa pa ra ra ra pb ra pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  30 10 60 40 20 50
+ra ra pb pb ra pb pa rb pa pa ra ra ra pb ra pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  30 10 40 60 20 50
+ra ra pb pb ra pb pa pa pa ra ra ra pb ra pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  30 10 40 20 60 50
+ra ra pb ra pb pb pa pa pa ra ra ra pb ra pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  30 10 40 20 50 60
+ra ra pb ra pb pb pa pa pa ra ra ra pb ra pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  30 40 10 20 50 60
+ra sa ra pb ra pb pb ra pa pa pa ra ra ra
+./push_swap  30 40 10 20 60 50
+ra pb ra ra pb pb pa pa pa ra ra ra pb ra pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  30 40 10 60 20 50
+ra pb ra pb ra pb pa pa pa ra ra ra pb ra pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  30 40 60 10 20 50
+ra ra sa ra pb ra pb ra pb rb pa pa pa ra ra ra ra pb pb pa pa ra ra ra pb ra pa ra
+./push_swap  30 60 40 10 20 50
+ra pb pb ra ra pb pa rb pa pa ra ra ra pb ra pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  60 30 40 10 20 50
+pb ra pb ra ra pb pa rb pa pa ra ra ra pb ra pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  60 30 40 10 50 20
+pb ra pb ra pb ra pa rb pa pa ra ra ra pb ra pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  30 60 40 10 50 20
+ra pb pb ra pb ra pa rb pa pa ra ra ra pb ra pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  30 40 60 10 50 20
+ra pb pb ra pb ra pa pa pa ra ra ra pb ra pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  30 40 10 60 50 20
+ra pb ra pb pb ra pa pa pa ra ra ra pb ra pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  30 40 10 50 60 20
+ra pb ra pb pb ra pa pa pa ra ra ra pb ra pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  30 40 10 50 20 60
+ra pb ra pb ra pb pa pa pa ra ra ra pb ra pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  30 40 50 10 20 60
+ra ra sa ra pb ra pb ra pb rb pa pa pa ra ra ra
+./push_swap  30 40 50 10 60 20
+ra pb pb ra pb ra pa pa pa ra ra ra pb ra pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  30 40 50 60 10 20
+rra rra rra sa ra pb ra ra pb pb pa rb pa pa ra ra ra ra pb pb pa pa ra ra ra pb ra pa ra
+./push_swap  30 40 60 50 10 20
+ra pb pb pb ra ra pa pa pa ra ra ra pb ra pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  30 60 40 50 10 20
+ra pb pb pb ra ra pa rb pa pa ra ra ra pb ra pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  60 30 40 50 10 20
+pb ra pb pb ra ra pa rb pa pa ra ra ra pb ra pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  60 30 50 40 10 20
+pb ra pb pb ra ra rb pa pa pa ra ra ra pb ra pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  30 60 50 40 10 20
+ra pb pb pb ra ra rb pa pa pa ra ra ra pb ra pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  30 50 60 40 10 20
+ra pb pb pb ra ra rb pa pa pa ra ra ra pb ra pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  30 50 40 60 10 20
+ra pb pb pb ra ra pa rb pa pa ra ra ra pb ra pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  30 50 40 10 60 20
+ra pb pb ra pb ra pa rb pa pa ra ra ra pb ra pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  30 50 40 10 20 60
+ra pb pb ra ra pb pa rb pa pa ra ra ra pb ra pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  50 30 40 10 20 60
+pb ra pb ra ra pb pa rb pa pa ra ra ra pb ra pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  50 30 40 10 60 20
+pb ra pb ra pb ra pa rb pa pa ra ra ra pb ra pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  50 30 40 60 10 20
+pb ra pb pb ra ra pa rb pa pa ra ra ra pb ra pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  50 30 60 40 10 20
+pb ra pb pb ra ra rb pa pa pa ra ra ra pb ra pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  50 60 30 40 10 20
+pb pb ra pb ra ra rb pa pa pa ra ra ra pb ra pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  60 50 30 40 10 20
+pb pb ra pb ra ra rb pa pa pa ra ra ra pb ra pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  60 50 40 30 10 20
+pb pb pb ra ra ra rb pa pa pa ra ra ra pb ra pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  50 60 40 30 10 20
+pb pb pb ra ra ra rb pa pa pa ra ra ra pb ra pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  50 40 60 30 10 20
+pb pb pb ra ra ra pa rb pa pa ra ra ra pb ra pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  50 40 30 60 10 20
+pb pb ra pb ra ra pa rb pa pa ra ra ra pb ra pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  50 40 30 10 60 20
+pb pb ra ra pb ra pa rb pa pa ra ra ra pb ra pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  50 40 30 10 20 60
+pb pb ra ra ra pb pa rb pa pa ra ra ra pb ra pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  40 50 30 10 20 60
+pb pb ra ra ra pb pa pa pa ra ra ra pb ra pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  40 50 30 10 60 20
+pb pb ra ra pb ra pa pa pa ra ra ra pb ra pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  40 50 30 60 10 20
+pb pb ra pb ra ra pa pa pa ra ra ra pb ra pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  40 50 60 30 10 20
+pb pb pb ra ra ra pa pa pa ra ra ra pb ra pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  40 60 50 30 10 20
+pb pb pb ra ra ra pa pa pa ra ra ra pb ra pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  60 40 50 30 10 20
+pb pb pb ra ra ra pa rb pa pa ra ra ra pb ra pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  60 40 30 50 10 20
+pb pb ra pb ra ra pa rb pa pa ra ra ra pb ra pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  40 60 30 50 10 20
+pb pb ra pb ra ra pa pa pa ra ra ra pb ra pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  40 30 60 50 10 20
+pb ra pb pb ra ra pa pa pa ra ra ra pb ra pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  40 30 50 60 10 20
+pb ra pb pb ra ra pa pa pa ra ra ra pb ra pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  40 30 50 10 60 20
+pb ra pb ra pb ra pa pa pa ra ra ra pb ra pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  40 30 50 10 20 60
+pb ra pb ra ra pb pa pa pa ra ra ra pb ra pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  40 30 10 50 20 60
+pb ra ra pb ra pb pa pa pa ra ra ra pb ra pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  40 30 10 50 60 20
+pb ra ra pb pb ra pa pa pa ra ra ra pb ra pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  40 30 10 60 50 20
+pb ra ra pb pb ra pa pa pa ra ra ra pb ra pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  40 30 60 10 50 20
+pb ra pb ra pb ra pa pa pa ra ra ra pb ra pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  40 60 30 10 50 20
+pb pb ra ra pb ra pa pa pa ra ra ra pb ra pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  60 40 30 10 50 20
+pb pb ra ra pb ra pa rb pa pa ra ra ra pb ra pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  60 40 30 10 20 50
+pb pb ra ra ra pb pa rb pa pa ra ra ra pb ra pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  40 60 30 10 20 50
+pb pb ra ra ra pb pa pa pa ra ra ra pb ra pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  40 30 60 10 20 50
+pb ra pb ra ra pb pa pa pa ra ra ra pb ra pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  40 30 10 60 20 50
+pb ra ra pb ra pb pa pa pa ra ra ra pb ra pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  40 30 10 20 60 50
+pb ra ra ra pb pb pa pa pa ra ra ra pb ra pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  40 30 10 20 50 60
+pb ra ra ra pb pb pa pa pa ra ra ra pb ra pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  40 30 20 10 50 60
+pb ra ra ra pb pb pa pa pa ra ra ra pb pb ra rb pa pa ra ra ra ra pb pa ra
+./push_swap  40 30 20 10 60 50
+pb ra ra ra pb pb pa pa pa ra ra ra pb pb ra rb pa pa ra ra ra pb ra pa ra
+./push_swap  40 30 20 60 10 50
+pb ra ra pb ra pb pa pa pa ra ra ra pb pb ra rb pa pa ra ra ra pb ra pa ra
+./push_swap  40 30 60 20 10 50
+pb ra pb ra ra pb pa pa pa ra ra ra pb pb ra rb pa pa ra ra ra pb ra pa ra
+./push_swap  40 60 30 20 10 50
+pb pb ra ra ra pb pa pa pa ra ra ra pb pb ra rb pa pa ra ra ra pb ra pa ra
+./push_swap  60 40 30 20 10 50
+pb pb ra ra ra pb pa rb pa pa ra ra ra pb pb ra rb pa pa ra ra ra pb ra pa ra
+./push_swap  60 40 30 20 50 10
+pb pb ra ra pb ra pa rb pa pa ra ra ra pb pb ra rb pa pa ra ra ra pb ra pa ra
+./push_swap  40 60 30 20 50 10
+pb pb ra ra pb ra pa pa pa ra ra ra pb pb ra rb pa pa ra ra ra pb ra pa ra
+./push_swap  40 30 60 20 50 10
+pb ra pb ra pb ra pa pa pa ra ra ra pb pb ra rb pa pa ra ra ra pb ra pa ra
+./push_swap  40 30 20 60 50 10
+pb ra ra pb pb ra pa pa pa ra ra ra pb pb ra rb pa pa ra ra ra pb ra pa ra
+./push_swap  40 30 20 50 60 10
+pb ra ra pb pb ra pa pa pa ra ra ra pb pb ra rb pa pa ra ra ra ra pb pa ra
+./push_swap  40 30 20 50 10 60
+pb ra ra pb ra pb pa pa pa ra ra ra pb pb ra rb pa pa ra ra ra ra pb pa ra
+./push_swap  40 30 50 20 10 60
+pb ra pb ra ra pb pa pa pa ra ra ra pb pb ra rb pa pa ra ra ra ra pb pa ra
+./push_swap  40 30 50 20 60 10
+pb ra pb ra pb ra pa pa pa ra ra ra pb pb ra rb pa pa ra ra ra ra pb pa ra
+./push_swap  40 30 50 60 20 10
+pb ra pb pb ra ra pa pa pa ra ra ra pb pb ra rb pa pa ra ra ra ra pb pa ra
+./push_swap  40 30 60 50 20 10
+pb ra pb pb ra ra pa pa pa ra ra ra pb pb ra rb pa pa ra ra ra pb ra pa ra
+./push_swap  40 60 30 50 20 10
+pb pb ra pb ra ra pa pa pa ra ra ra pb pb ra rb pa pa ra ra ra pb ra pa ra
+./push_swap  60 40 30 50 20 10
+pb pb ra pb ra ra pa rb pa pa ra ra ra pb pb ra rb pa pa ra ra ra pb ra pa ra
+./push_swap  60 40 50 30 20 10
+pb pb pb ra ra ra pa rb pa pa ra ra ra pb pb ra rb pa pa ra ra ra pb ra pa ra
+./push_swap  40 60 50 30 20 10
+pb pb pb ra ra ra pa pa pa ra ra ra pb pb ra rb pa pa ra ra ra pb ra pa ra
+./push_swap  40 50 60 30 20 10
+pb pb pb ra ra ra pa pa pa ra ra ra pb pb ra rb pa pa ra ra ra ra pb pa ra
+./push_swap  40 50 30 60 20 10
+pb pb ra pb ra ra pa pa pa ra ra ra pb pb ra rb pa pa ra ra ra ra pb pa ra
+./push_swap  40 50 30 20 60 10
+pb pb ra ra pb ra pa pa pa ra ra ra pb pb ra rb pa pa ra ra ra ra pb pa ra
+./push_swap  40 50 30 20 10 60
+pb pb ra ra ra pb pa pa pa ra ra ra pb pb ra rb pa pa ra ra ra ra pb pa ra
+./push_swap  50 40 30 20 10 60
+pb pb ra ra ra pb pa rb pa pa ra ra ra pb pb ra rb pa pa ra ra ra ra pb pa ra
+./push_swap  50 40 30 20 60 10
+pb pb ra ra pb ra pa rb pa pa ra ra ra pb pb ra rb pa pa ra ra ra ra pb pa ra
+./push_swap  50 40 30 60 20 10
+pb pb ra pb ra ra pa rb pa pa ra ra ra pb pb ra rb pa pa ra ra ra ra pb pa ra
+./push_swap  50 40 60 30 20 10
+pb pb pb ra ra ra pa rb pa pa ra ra ra pb pb ra rb pa pa ra ra ra ra pb pa ra
+./push_swap  50 60 40 30 20 10
+pb pb pb ra ra ra rb pa pa pa ra ra ra pb pb ra rb pa pa ra ra ra ra pb pa ra
+./push_swap  60 50 40 30 20 10
+pb pb pb ra ra ra rb pa pa pa ra ra ra pb pb ra rb pa pa ra ra ra pb ra pa ra
+./push_swap  60 50 30 40 20 10
+pb pb ra pb ra ra rb pa pa pa ra ra ra pb pb ra rb pa pa ra ra ra pb ra pa ra
+./push_swap  50 60 30 40 20 10
+pb pb ra pb ra ra rb pa pa pa ra ra ra pb pb ra rb pa pa ra ra ra ra pb pa ra
+./push_swap  50 30 60 40 20 10
+pb ra pb pb ra ra rb pa pa pa ra ra ra pb pb ra rb pa pa ra ra ra ra pb pa ra
+./push_swap  50 30 40 60 20 10
+pb ra pb pb ra ra pa rb pa pa ra ra ra pb pb ra rb pa pa ra ra ra ra pb pa ra
+./push_swap  50 30 40 20 60 10
+pb ra pb ra pb ra pa rb pa pa ra ra ra pb pb ra rb pa pa ra ra ra ra pb pa ra
+./push_swap  50 30 40 20 10 60
+pb ra pb ra ra pb pa rb pa pa ra ra ra pb pb ra rb pa pa ra ra ra ra pb pa ra
+./push_swap  30 50 40 20 10 60
+ra pb pb ra ra pb pa rb pa pa ra ra ra pb pb ra rb pa pa ra ra ra ra pb pa ra
+./push_swap  30 50 40 20 60 10
+ra pb pb ra pb ra pa rb pa pa ra ra ra pb pb ra rb pa pa ra ra ra ra pb pa ra
+./push_swap  30 50 40 60 20 10
+ra pb pb pb ra ra pa rb pa pa ra ra ra pb pb ra rb pa pa ra ra ra ra pb pa ra
+./push_swap  30 50 60 40 20 10
+ra pb pb pb ra ra rb pa pa pa ra ra ra pb pb ra rb pa pa ra ra ra ra pb pa ra
+./push_swap  30 60 50 40 20 10
+ra pb pb pb ra ra rb pa pa pa ra ra ra pb pb ra rb pa pa ra ra ra pb ra pa ra
+./push_swap  60 30 50 40 20 10
+pb ra pb pb ra ra rb pa pa pa ra ra ra pb pb ra rb pa pa ra ra ra pb ra pa ra
+./push_swap  60 30 40 50 20 10
+pb ra pb pb ra ra pa rb pa pa ra ra ra pb pb ra rb pa pa ra ra ra pb ra pa ra
+./push_swap  30 60 40 50 20 10
+ra pb pb pb ra ra pa rb pa pa ra ra ra pb pb ra rb pa pa ra ra ra pb ra pa ra
+./push_swap  30 40 60 50 20 10
+ra pb pb pb ra ra pa pa pa ra ra ra pb pb ra rb pa pa ra ra ra pb ra pa ra
+./push_swap  30 40 50 60 20 10
+ra pb pb pb ra ra pa pa pa ra ra ra pb pb ra rb pa pa ra ra ra ra pb pa ra
+./push_swap  30 40 50 20 60 10
+ra pb pb ra pb ra pa pa pa ra ra ra pb pb ra rb pa pa ra ra ra ra pb pa ra
+./push_swap  30 40 50 20 10 60
+ra pb pb ra ra pb pa pa pa ra ra ra pb pb ra rb pa pa ra ra ra ra pb pa ra
+./push_swap  30 40 20 50 10 60
+ra pb ra pb ra pb pa pa pa ra ra ra pb pb ra rb pa pa ra ra ra ra pb pa ra
+./push_swap  30 40 20 50 60 10
+ra pb ra pb pb ra pa pa pa ra ra ra pb pb ra rb pa pa ra ra ra ra pb pa ra
+./push_swap  30 40 20 60 50 10
+ra pb ra pb pb ra pa pa pa ra ra ra pb pb ra rb pa pa ra ra ra pb ra pa ra
+./push_swap  30 40 60 20 50 10
+ra pb pb ra pb ra pa pa pa ra ra ra pb pb ra rb pa pa ra ra ra pb ra pa ra
+./push_swap  30 60 40 20 50 10
+ra pb pb ra pb ra pa rb pa pa ra ra ra pb pb ra rb pa pa ra ra ra pb ra pa ra
+./push_swap  60 30 40 20 50 10
+pb ra pb ra pb ra pa rb pa pa ra ra ra pb pb ra rb pa pa ra ra ra pb ra pa ra
+./push_swap  60 30 40 20 10 50
+pb ra pb ra ra pb pa rb pa pa ra ra ra pb pb ra rb pa pa ra ra ra pb ra pa ra
+./push_swap  30 60 40 20 10 50
+ra pb pb ra ra pb pa rb pa pa ra ra ra pb pb ra rb pa pa ra ra ra pb ra pa ra
+./push_swap  30 40 60 20 10 50
+ra pb pb ra ra pb pa pa pa ra ra ra pb pb ra rb pa pa ra ra ra pb ra pa ra
+./push_swap  30 40 20 60 10 50
+ra pb ra pb ra pb pa pa pa ra ra ra pb pb ra rb pa pa ra ra ra pb ra pa ra
+./push_swap  30 40 20 10 60 50
+ra pb ra ra pb pb pa pa pa ra ra ra pb pb ra rb pa pa ra ra ra pb ra pa ra
+./push_swap  30 40 20 10 50 60
+ra pb ra ra pb pb pa pa pa ra ra ra pb pb ra rb pa pa ra ra ra ra pb pa ra
+./push_swap  30 20 40 10 50 60
+ra ra pb ra pb pb pa pa pa ra ra ra pb pb ra rb pa pa ra ra ra ra pb pa ra
+./push_swap  30 20 40 10 60 50
+ra ra pb ra pb pb pa pa pa ra ra ra pb pb ra rb pa pa ra ra ra pb ra pa ra
+./push_swap  30 20 40 60 10 50
+ra ra pb pb ra pb pa pa pa ra ra ra pb pb ra rb pa pa ra ra ra pb ra pa ra
+./push_swap  30 20 60 40 10 50
+ra ra pb pb ra pb pa rb pa pa ra ra ra pb pb ra rb pa pa ra ra ra pb ra pa ra
+./push_swap  30 60 20 40 10 50
+ra pb ra pb ra pb pa rb pa pa ra ra ra pb pb ra rb pa pa ra ra ra pb ra pa ra
+./push_swap  60 30 20 40 10 50
+pb ra ra pb ra pb pa rb pa pa ra ra ra pb pb ra rb pa pa ra ra ra pb ra pa ra
+./push_swap  60 30 20 40 50 10
+pb ra ra pb pb ra pa rb pa pa ra ra ra pb pb ra rb pa pa ra ra ra pb ra pa ra
+./push_swap  30 60 20 40 50 10
+ra pb ra pb pb ra pa rb pa pa ra ra ra pb pb ra rb pa pa ra ra ra pb ra pa ra
+./push_swap  30 20 60 40 50 10
+ra ra pb pb pb ra pa rb pa pa ra ra ra pb pb ra rb pa pa ra ra ra pb ra pa ra
+./push_swap  30 20 40 60 50 10
+ra ra pb pb pb ra pa pa pa ra ra ra pb pb ra rb pa pa ra ra ra pb ra pa ra
+./push_swap  30 20 40 50 60 10
+ra ra pb pb pb ra pa pa pa ra ra ra pb pb ra rb pa pa ra ra ra ra pb pa ra
+./push_swap  30 20 40 50 10 60
+ra ra pb pb ra pb pa pa pa ra ra ra pb pb ra rb pa pa ra ra ra ra pb pa ra
+./push_swap  30 20 50 40 10 60
+ra ra pb pb ra pb pa rb pa pa ra ra ra pb pb ra rb pa pa ra ra ra ra pb pa ra
+./push_swap  30 20 50 40 60 10
+ra ra pb pb pb ra pa rb pa pa ra ra ra pb pb ra rb pa pa ra ra ra ra pb pa ra
+./push_swap  30 20 50 60 40 10
+ra ra pb pb pb ra rb pa pa pa ra ra ra pb pb ra rb pa pa ra ra ra ra pb pa ra
+./push_swap  30 20 60 50 40 10
+ra ra pb pb pb ra rb pa pa pa ra ra ra pb pb ra rb pa pa ra ra ra pb ra pa ra
+./push_swap  30 60 20 50 40 10
+ra pb ra pb pb ra rb pa pa pa ra ra ra pb pb ra rb pa pa ra ra ra pb ra pa ra
+./push_swap  60 30 20 50 40 10
+pb ra ra pb pb ra rb pa pa pa ra ra ra pb pb ra rb pa pa ra ra ra pb ra pa ra
+./push_swap  60 30 50 20 40 10
+pb ra pb ra pb ra rb pa pa pa ra ra ra pb pb ra rb pa pa ra ra ra pb ra pa ra
+./push_swap  30 60 50 20 40 10
+ra pb pb ra pb ra rb pa pa pa ra ra ra pb pb ra rb pa pa ra ra ra pb ra pa ra
+./push_swap  30 50 60 20 40 10
+ra pb pb ra pb ra rb pa pa pa ra ra ra pb pb ra rb pa pa ra ra ra ra pb pa ra
+./push_swap  30 50 20 60 40 10
+ra pb ra pb pb ra rb pa pa pa ra ra ra pb pb ra rb pa pa ra ra ra ra pb pa ra
+./push_swap  30 50 20 40 60 10
+ra pb ra pb pb ra pa rb pa pa ra ra ra pb pb ra rb pa pa ra ra ra ra pb pa ra
+./push_swap  30 50 20 40 10 60
+ra pb ra pb ra pb pa rb pa pa ra ra ra pb pb ra rb pa pa ra ra ra ra pb pa ra
+./push_swap  50 30 20 40 10 60
+pb ra ra pb ra pb pa rb pa pa ra ra ra pb pb ra rb pa pa ra ra ra ra pb pa ra
+./push_swap  50 30 20 40 60 10
+pb ra ra pb pb ra pa rb pa pa ra ra ra pb pb ra rb pa pa ra ra ra ra pb pa ra
+./push_swap  50 30 20 60 40 10
+pb ra ra pb pb ra rb pa pa pa ra ra ra pb pb ra rb pa pa ra ra ra ra pb pa ra
+./push_swap  50 30 60 20 40 10
+pb ra pb ra pb ra rb pa pa pa ra ra ra pb pb ra rb pa pa ra ra ra ra pb pa ra
+./push_swap  50 60 30 20 40 10
+pb pb ra ra pb ra rb pa pa pa ra ra ra pb pb ra rb pa pa ra ra ra ra pb pa ra
+./push_swap  60 50 30 20 40 10
+pb pb ra ra pb ra rb pa pa pa ra ra ra pb pb ra rb pa pa ra ra ra pb ra pa ra
+./push_swap  60 50 30 20 10 40
+pb pb ra ra ra pb rb pa pa pa ra ra ra pb pb ra rb pa pa ra ra ra pb ra pa ra
+./push_swap  50 60 30 20 10 40
+pb pb ra ra ra pb rb pa pa pa ra ra ra pb pb ra rb pa pa ra ra ra ra pb pa ra
+./push_swap  50 30 60 20 10 40
+pb ra pb ra ra pb rb pa pa pa ra ra ra pb pb ra rb pa pa ra ra ra ra pb pa ra
+./push_swap  50 30 20 60 10 40
+pb ra ra pb ra pb rb pa pa pa ra ra ra pb pb ra rb pa pa ra ra ra ra pb pa ra
+./push_swap  50 30 20 10 60 40
+pb ra ra ra pb pb rb pa pa pa ra ra ra pb pb ra rb pa pa ra ra ra ra pb pa ra
+./push_swap  50 30 20 10 40 60
+pb ra ra ra pb pb pa rb pa pa ra ra ra pb pb ra rb pa pa ra ra ra ra pb pa ra
+./push_swap  30 50 20 10 40 60
+ra pb ra ra pb pb pa rb pa pa ra ra ra pb pb ra rb pa pa ra ra ra ra pb pa ra
+./push_swap  30 50 20 10 60 40
+ra pb ra ra pb pb rb pa pa pa ra ra ra pb pb ra rb pa pa ra ra ra ra pb pa ra
+./push_swap  30 50 20 60 10 40
+ra pb ra pb ra pb rb pa pa pa ra ra ra pb pb ra rb pa pa ra ra ra ra pb pa ra
+./push_swap  30 50 60 20 10 40
+ra pb pb ra ra pb rb pa pa pa ra ra ra pb pb ra rb pa pa ra ra ra ra pb pa ra
+./push_swap  30 60 50 20 10 40
+ra pb pb ra ra pb rb pa pa pa ra ra ra pb pb ra rb pa pa ra ra ra pb ra pa ra
+./push_swap  60 30 50 20 10 40
+pb ra pb ra ra pb rb pa pa pa ra ra ra pb pb ra rb pa pa ra ra ra pb ra pa ra
+./push_swap  60 30 20 50 10 40
+pb ra ra pb ra pb rb pa pa pa ra ra ra pb pb ra rb pa pa ra ra ra pb ra pa ra
+./push_swap  30 60 20 50 10 40
+ra pb ra pb ra pb rb pa pa pa ra ra ra pb pb ra rb pa pa ra ra ra pb ra pa ra
+./push_swap  30 20 60 50 10 40
+ra ra pb pb ra pb rb pa pa pa ra ra ra pb pb ra rb pa pa ra ra ra pb ra pa ra
+./push_swap  30 20 50 60 10 40
+ra ra pb pb ra pb rb pa pa pa ra ra ra pb pb ra rb pa pa ra ra ra ra pb pa ra
+./push_swap  30 20 50 10 60 40
+ra ra pb ra pb pb rb pa pa pa ra ra ra pb pb ra rb pa pa ra ra ra ra pb pa ra
+./push_swap  30 20 50 10 40 60
+ra ra pb ra pb pb pa rb pa pa ra ra ra pb pb ra rb pa pa ra ra ra ra pb pa ra
+./push_swap  30 20 10 50 40 60
+ra ra ra pb pb pb pa rb pa pa ra ra ra pb pb ra rb pa pa ra ra ra ra pb pa ra
+./push_swap  30 20 10 50 60 40
+ra ra ra pb pb pb rb pa pa pa ra ra ra pb pb ra rb pa pa ra ra ra ra pb pa ra
+./push_swap  30 20 10 60 50 40
+ra ra ra pb pb pb rb pa pa pa ra ra ra pb pb ra rb pa pa ra ra ra pb ra pa ra
+./push_swap  30 20 60 10 50 40
+ra ra pb ra pb pb rb pa pa pa ra ra ra pb pb ra rb pa pa ra ra ra pb ra pa ra
+./push_swap  30 60 20 10 50 40
+ra pb ra ra pb pb rb pa pa pa ra ra ra pb pb ra rb pa pa ra ra ra pb ra pa ra
+./push_swap  60 30 20 10 50 40
+pb ra ra ra pb pb rb pa pa pa ra ra ra pb pb ra rb pa pa ra ra ra pb ra pa ra
+./push_swap  60 30 20 10 40 50
+pb ra ra ra pb pb pa rb pa pa ra ra ra pb pb ra rb pa pa ra ra ra pb ra pa ra
+./push_swap  30 60 20 10 40 50
+ra pb ra ra pb pb pa rb pa pa ra ra ra pb pb ra rb pa pa ra ra ra pb ra pa ra
+./push_swap  30 20 60 10 40 50
+ra ra pb ra pb pb pa rb pa pa ra ra ra pb pb ra rb pa pa ra ra ra pb ra pa ra
+./push_swap  30 20 10 60 40 50
+ra ra ra pb pb pb pa rb pa pa ra ra ra pb pb ra rb pa pa ra ra ra pb ra pa ra
+./push_swap  30 20 10 40 60 50
+ra ra ra pb pb pb pa pa pa ra ra ra pb pb ra rb pa pa ra ra ra pb ra pa ra
+./push_swap  30 20 10 40 50 60
+ra ra ra pb pb pb pa pa pa ra ra ra pb pb ra rb pa pa ra ra ra ra pb pa ra
+./push_swap  20 30 10 40 50 60
+ra sa ra ra pb pb pb ra pa pa pa ra ra ra ra pb pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  20 30 10 40 60 50
+ra ra ra pb pb pb pa pa pa ra ra ra pb pb ra pa pa ra ra ra pb ra pa ra
+./push_swap  20 30 10 60 40 50
+ra ra ra pb pb pb pa rb pa pa ra ra ra pb pb ra pa pa ra ra ra pb ra pa ra
+./push_swap  20 30 60 10 40 50
+ra ra sa ra pb pb pb ra ra pa rb pa pa ra ra ra ra pb pb pa pa ra ra ra pb ra pa ra
+./push_swap  20 60 30 10 40 50
+ra pb ra ra pb pb pa rb pa pa ra ra ra pb pb ra pa pa ra ra ra pb ra pa ra
+./push_swap  60 20 30 10 40 50
+pb ra ra ra pb pb pa rb pa pa ra ra ra pb pb ra pa pa ra ra ra pb ra pa ra
+./push_swap  60 20 30 10 50 40
+pb ra ra ra pb pb rb pa pa pa ra ra ra pb pb ra pa pa ra ra ra pb ra pa ra
+./push_swap  20 60 30 10 50 40
+ra pb ra ra pb pb rb pa pa pa ra ra ra pb pb ra pa pa ra ra ra pb ra pa ra
+./push_swap  20 30 60 10 50 40
+ra ra pb ra pb pb rb pa pa pa ra ra ra pb pb ra pa pa ra ra ra pb ra pa ra
+./push_swap  20 30 10 60 50 40
+ra ra ra pb pb pb rb pa pa pa ra ra ra pb pb ra pa pa ra ra ra pb ra pa ra
+./push_swap  20 30 10 50 60 40
+ra ra ra pb pb pb rb pa pa pa ra ra ra pb pb ra pa pa ra ra ra ra pb pa ra
+./push_swap  20 30 10 50 40 60
+ra ra ra pb pb pb pa rb pa pa ra ra ra pb pb ra pa pa ra ra ra ra pb pa ra
+./push_swap  20 30 50 10 40 60
+ra ra sa ra pb pb pb ra ra pa rb pa pa ra ra ra
+./push_swap  20 30 50 10 60 40
+ra ra pb ra pb pb rb pa pa pa ra ra ra pb pb ra pa pa ra ra ra ra pb pa ra
+./push_swap  20 30 50 60 10 40
+rra rra rra sa ra pb pb ra ra pb pa rb pa pa ra ra ra ra pb pb pa pa ra ra ra pb ra pa ra
+./push_swap  20 30 60 50 10 40
+ra ra pb pb ra pb rb pa pa pa ra ra ra pb pb ra pa pa ra ra ra pb ra pa ra
+./push_swap  20 60 30 50 10 40
+ra pb ra pb ra pb rb pa pa pa ra ra ra pb pb ra pa pa ra ra ra pb ra pa ra
+./push_swap  60 20 30 50 10 40
+pb ra ra pb ra pb rb pa pa pa ra ra ra pb pb ra pa pa ra ra ra pb ra pa ra
+./push_swap  60 20 50 30 10 40
+pb ra pb ra ra pb rb pa pa pa ra ra ra pb pb ra pa pa ra ra ra pb ra pa ra
+./push_swap  20 60 50 30 10 40
+ra pb pb ra ra pb rb pa pa pa ra ra ra pb pb ra pa pa ra ra ra pb ra pa ra
+./push_swap  20 50 60 30 10 40
+ra pb pb ra ra pb rb pa pa pa ra ra ra pb pb ra pa pa ra ra ra ra pb pa ra
+./push_swap  20 50 30 60 10 40
+ra pb ra pb ra pb rb pa pa pa ra ra ra pb pb ra pa pa ra ra ra ra pb pa ra
+./push_swap  20 50 30 10 60 40
+ra pb ra ra pb pb rb pa pa pa ra ra ra pb pb ra pa pa ra ra ra ra pb pa ra
+./push_swap  20 50 30 10 40 60
+ra pb ra ra pb pb pa rb pa pa ra ra ra pb pb ra pa pa ra ra ra ra pb pa ra
+./push_swap  50 20 30 10 40 60
+pb ra ra ra pb pb pa rb pa pa ra ra ra pb pb ra pa pa ra ra ra ra pb pa ra
+./push_swap  50 20 30 10 60 40
+pb ra ra ra pb pb rb pa pa pa ra ra ra pb pb ra pa pa ra ra ra ra pb pa ra
+./push_swap  50 20 30 60 10 40
+pb ra ra pb ra pb rb pa pa pa ra ra ra pb pb ra pa pa ra ra ra ra pb pa ra
+./push_swap  50 20 60 30 10 40
+pb ra pb ra ra pb rb pa pa pa ra ra ra pb pb ra pa pa ra ra ra ra pb pa ra
+./push_swap  50 60 20 30 10 40
+pb pb ra ra ra pb rb pa pa pa ra ra ra pb pb ra pa pa ra ra ra ra pb pa ra
+./push_swap  60 50 20 30 10 40
+pb pb ra ra ra pb rb pa pa pa ra ra ra pb pb ra pa pa ra ra ra pb ra pa ra
+./push_swap  60 50 20 30 40 10
+pb pb ra ra pb ra rb pa pa pa ra ra ra pb pb ra pa pa ra ra ra pb ra pa ra
+./push_swap  50 60 20 30 40 10
+pb pb ra ra pb ra rb pa pa pa ra ra ra pb pb ra pa pa ra ra ra ra pb pa ra
+./push_swap  50 20 60 30 40 10
+pb ra pb ra pb ra rb pa pa pa ra ra ra pb pb ra pa pa ra ra ra ra pb pa ra
+./push_swap  50 20 30 60 40 10
+pb ra ra pb pb ra rb pa pa pa ra ra ra pb pb ra pa pa ra ra ra ra pb pa ra
+./push_swap  50 20 30 40 60 10
+pb ra ra pb pb ra pa rb pa pa ra ra ra pb pb ra pa pa ra ra ra ra pb pa ra
+./push_swap  50 20 30 40 10 60
+pb ra ra pb ra pb pa rb pa pa ra ra ra pb pb ra pa pa ra ra ra ra pb pa ra
+./push_swap  20 50 30 40 10 60
+ra pb ra pb ra pb pa rb pa pa ra ra ra pb pb ra pa pa ra ra ra ra pb pa ra
+./push_swap  20 50 30 40 60 10
+ra pb ra pb pb ra pa rb pa pa ra ra ra pb pb ra pa pa ra ra ra ra pb pa ra
+./push_swap  20 50 30 60 40 10
+ra pb ra pb pb ra rb pa pa pa ra ra ra pb pb ra pa pa ra ra ra ra pb pa ra
+./push_swap  20 50 60 30 40 10
+ra pb pb ra pb ra rb pa pa pa ra ra ra pb pb ra pa pa ra ra ra ra pb pa ra
+./push_swap  20 60 50 30 40 10
+ra pb pb ra pb ra rb pa pa pa ra ra ra pb pb ra pa pa ra ra ra pb ra pa ra
+./push_swap  60 20 50 30 40 10
+pb ra pb ra pb ra rb pa pa pa ra ra ra pb pb ra pa pa ra ra ra pb ra pa ra
+./push_swap  60 20 30 50 40 10
+pb ra ra pb pb ra rb pa pa pa ra ra ra pb pb ra pa pa ra ra ra pb ra pa ra
+./push_swap  20 60 30 50 40 10
+ra pb ra pb pb ra rb pa pa pa ra ra ra pb pb ra pa pa ra ra ra pb ra pa ra
+./push_swap  20 30 60 50 40 10
+ra ra pb pb pb ra rb pa pa pa ra ra ra pb pb ra pa pa ra ra ra pb ra pa ra
+./push_swap  20 30 50 60 40 10
+ra ra pb pb pb ra rb pa pa pa ra ra ra pb pb ra pa pa ra ra ra ra pb pa ra
+./push_swap  20 30 50 40 60 10
+ra ra pb pb pb ra pa rb pa pa ra ra ra pb pb ra pa pa ra ra ra ra pb pa ra
+./push_swap  20 30 50 40 10 60
+ra ra pb pb ra pb pa rb pa pa ra ra ra pb pb ra pa pa ra ra ra ra pb pa ra
+./push_swap  20 30 40 50 10 60
+rra rra rra sa ra pb pb ra ra pb rb pa pa pa ra ra ra
+./push_swap  20 30 40 50 60 10
+rra rra sa ra pb ra ra pb pb pa rb pa pa ra ra ra ra pb pb pa pa ra ra ra pb ra pa ra
+./push_swap  20 30 40 60 50 10
+ra ra pb pb pb ra pa pa pa ra ra ra pb pb ra pa pa ra ra ra pb ra pa ra
+./push_swap  20 30 60 40 50 10
+ra ra pb pb pb ra pa rb pa pa ra ra ra pb pb ra pa pa ra ra ra pb ra pa ra
+./push_swap  20 60 30 40 50 10
+ra pb ra pb pb ra pa rb pa pa ra ra ra pb pb ra pa pa ra ra ra pb ra pa ra
+./push_swap  60 20 30 40 50 10
+pb ra ra pb pb ra pa rb pa pa ra ra ra pb pb ra pa pa ra ra ra pb ra pa ra
+./push_swap  60 20 30 40 10 50
+pb ra ra pb ra pb pa rb pa pa ra ra ra pb pb ra pa pa ra ra ra pb ra pa ra
+./push_swap  20 60 30 40 10 50
+ra pb ra pb ra pb pa rb pa pa ra ra ra pb pb ra pa pa ra ra ra pb ra pa ra
+./push_swap  20 30 60 40 10 50
+ra ra pb pb ra pb pa rb pa pa ra ra ra pb pb ra pa pa ra ra ra pb ra pa ra
+./push_swap  20 30 40 60 10 50
+rra rra rra sa ra pb pb ra ra pb rb pa pa pa ra ra ra ra pb pb pa pa ra ra ra pb ra pa ra
+./push_swap  20 30 40 10 60 50
+ra ra pb ra pb pb pa pa pa ra ra ra pb pb ra pa pa ra ra ra pb ra pa ra
+./push_swap  20 30 40 10 50 60
+ra ra sa ra pb pb pb ra ra pa pa pa ra ra ra
+./push_swap  20 40 30 10 50 60
+ra pb ra ra pb pb pa pa pa ra ra ra pb pb ra pa pa ra ra ra ra pb pa ra
+./push_swap  20 40 30 10 60 50
+ra pb ra ra pb pb pa pa pa ra ra ra pb pb ra pa pa ra ra ra pb ra pa ra
+./push_swap  20 40 30 60 10 50
+ra pb ra pb ra pb pa pa pa ra ra ra pb pb ra pa pa ra ra ra pb ra pa ra
+./push_swap  20 40 60 30 10 50
+ra pb pb ra ra pb pa pa pa ra ra ra pb pb ra pa pa ra ra ra pb ra pa ra
+./push_swap  20 60 40 30 10 50
+ra pb pb ra ra pb pa rb pa pa ra ra ra pb pb ra pa pa ra ra ra pb ra pa ra
+./push_swap  60 20 40 30 10 50
+pb ra pb ra ra pb pa rb pa pa ra ra ra pb pb ra pa pa ra ra ra pb ra pa ra
+./push_swap  60 20 40 30 50 10
+pb ra pb ra pb ra pa rb pa pa ra ra ra pb pb ra pa pa ra ra ra pb ra pa ra
+./push_swap  20 60 40 30 50 10
+ra pb pb ra pb ra pa rb pa pa ra ra ra pb pb ra pa pa ra ra ra pb ra pa ra
+./push_swap  20 40 60 30 50 10
+ra pb pb ra pb ra pa pa pa ra ra ra pb pb ra pa pa ra ra ra pb ra pa ra
+./push_swap  20 40 30 60 50 10
+ra pb ra pb pb ra pa pa pa ra ra ra pb pb ra pa pa ra ra ra pb ra pa ra
+./push_swap  20 40 30 50 60 10
+ra pb ra pb pb ra pa pa pa ra ra ra pb pb ra pa pa ra ra ra ra pb pa ra
+./push_swap  20 40 30 50 10 60
+ra pb ra pb ra pb pa pa pa ra ra ra pb pb ra pa pa ra ra ra ra pb pa ra
+./push_swap  20 40 50 30 10 60
+ra pb pb ra ra pb pa pa pa ra ra ra pb pb ra pa pa ra ra ra ra pb pa ra
+./push_swap  20 40 50 30 60 10
+ra pb pb ra pb ra pa pa pa ra ra ra pb pb ra pa pa ra ra ra ra pb pa ra
+./push_swap  20 40 50 60 30 10
+ra pb pb pb ra ra pa pa pa ra ra ra pb pb ra pa pa ra ra ra ra pb pa ra
+./push_swap  20 40 60 50 30 10
+ra pb pb pb ra ra pa pa pa ra ra ra pb pb ra pa pa ra ra ra pb ra pa ra
+./push_swap  20 60 40 50 30 10
+ra pb pb pb ra ra pa rb pa pa ra ra ra pb pb ra pa pa ra ra ra pb ra pa ra
+./push_swap  60 20 40 50 30 10
+pb ra pb pb ra ra pa rb pa pa ra ra ra pb pb ra pa pa ra ra ra pb ra pa ra
+./push_swap  60 20 50 40 30 10
+pb ra pb pb ra ra rb pa pa pa ra ra ra pb pb ra pa pa ra ra ra pb ra pa ra
+./push_swap  20 60 50 40 30 10
+ra pb pb pb ra ra rb pa pa pa ra ra ra pb pb ra pa pa ra ra ra pb ra pa ra
+./push_swap  20 50 60 40 30 10
+ra pb pb pb ra ra rb pa pa pa ra ra ra pb pb ra pa pa ra ra ra ra pb pa ra
+./push_swap  20 50 40 60 30 10
+ra pb pb pb ra ra pa rb pa pa ra ra ra pb pb ra pa pa ra ra ra ra pb pa ra
+./push_swap  20 50 40 30 60 10
+ra pb pb ra pb ra pa rb pa pa ra ra ra pb pb ra pa pa ra ra ra ra pb pa ra
+./push_swap  20 50 40 30 10 60
+ra pb pb ra ra pb pa rb pa pa ra ra ra pb pb ra pa pa ra ra ra ra pb pa ra
+./push_swap  50 20 40 30 10 60
+pb ra pb ra ra pb pa rb pa pa ra ra ra pb pb ra pa pa ra ra ra ra pb pa ra
+./push_swap  50 20 40 30 60 10
+pb ra pb ra pb ra pa rb pa pa ra ra ra pb pb ra pa pa ra ra ra ra pb pa ra
+./push_swap  50 20 40 60 30 10
+pb ra pb pb ra ra pa rb pa pa ra ra ra pb pb ra pa pa ra ra ra ra pb pa ra
+./push_swap  50 20 60 40 30 10
+pb ra pb pb ra ra rb pa pa pa ra ra ra pb pb ra pa pa ra ra ra ra pb pa ra
+./push_swap  50 60 20 40 30 10
+pb pb ra pb ra ra rb pa pa pa ra ra ra pb pb ra pa pa ra ra ra ra pb pa ra
+./push_swap  60 50 20 40 30 10
+pb pb ra pb ra ra rb pa pa pa ra ra ra pb pb ra pa pa ra ra ra pb ra pa ra
+./push_swap  60 50 40 20 30 10
+pb pb pb ra ra ra rb pa pa pa ra ra ra pb pb ra pa pa ra ra ra pb ra pa ra
+./push_swap  50 60 40 20 30 10
+pb pb pb ra ra ra rb pa pa pa ra ra ra pb pb ra pa pa ra ra ra ra pb pa ra
+./push_swap  50 40 60 20 30 10
+pb pb pb ra ra ra pa rb pa pa ra ra ra pb pb ra pa pa ra ra ra ra pb pa ra
+./push_swap  50 40 20 60 30 10
+pb pb ra pb ra ra pa rb pa pa ra ra ra pb pb ra pa pa ra ra ra ra pb pa ra
+./push_swap  50 40 20 30 60 10
+pb pb ra ra pb ra pa rb pa pa ra ra ra pb pb ra pa pa ra ra ra ra pb pa ra
+./push_swap  50 40 20 30 10 60
+pb pb ra ra ra pb pa rb pa pa ra ra ra pb pb ra pa pa ra ra ra ra pb pa ra
+./push_swap  40 50 20 30 10 60
+pb pb ra ra ra pb pa pa pa ra ra ra pb pb ra pa pa ra ra ra ra pb pa ra
+./push_swap  40 50 20 30 60 10
+pb pb ra ra pb ra pa pa pa ra ra ra pb pb ra pa pa ra ra ra ra pb pa ra
+./push_swap  40 50 20 60 30 10
+pb pb ra pb ra ra pa pa pa ra ra ra pb pb ra pa pa ra ra ra ra pb pa ra
+./push_swap  40 50 60 20 30 10
+pb pb pb ra ra ra pa pa pa ra ra ra pb pb ra pa pa ra ra ra ra pb pa ra
+./push_swap  40 60 50 20 30 10
+pb pb pb ra ra ra pa pa pa ra ra ra pb pb ra pa pa ra ra ra pb ra pa ra
+./push_swap  60 40 50 20 30 10
+pb pb pb ra ra ra pa rb pa pa ra ra ra pb pb ra pa pa ra ra ra pb ra pa ra
+./push_swap  60 40 20 50 30 10
+pb pb ra pb ra ra pa rb pa pa ra ra ra pb pb ra pa pa ra ra ra pb ra pa ra
+./push_swap  40 60 20 50 30 10
+pb pb ra pb ra ra pa pa pa ra ra ra pb pb ra pa pa ra ra ra pb ra pa ra
+./push_swap  40 20 60 50 30 10
+pb ra pb pb ra ra pa pa pa ra ra ra pb pb ra pa pa ra ra ra pb ra pa ra
+./push_swap  40 20 50 60 30 10
+pb ra pb pb ra ra pa pa pa ra ra ra pb pb ra pa pa ra ra ra ra pb pa ra
+./push_swap  40 20 50 30 60 10
+pb ra pb ra pb ra pa pa pa ra ra ra pb pb ra pa pa ra ra ra ra pb pa ra
+./push_swap  40 20 50 30 10 60
+pb ra pb ra ra pb pa pa pa ra ra ra pb pb ra pa pa ra ra ra ra pb pa ra
+./push_swap  40 20 30 50 10 60
+pb ra ra pb ra pb pa pa pa ra ra ra pb pb ra pa pa ra ra ra ra pb pa ra
+./push_swap  40 20 30 50 60 10
+pb ra ra pb pb ra pa pa pa ra ra ra pb pb ra pa pa ra ra ra ra pb pa ra
+./push_swap  40 20 30 60 50 10
+pb ra ra pb pb ra pa pa pa ra ra ra pb pb ra pa pa ra ra ra pb ra pa ra
+./push_swap  40 20 60 30 50 10
+pb ra pb ra pb ra pa pa pa ra ra ra pb pb ra pa pa ra ra ra pb ra pa ra
+./push_swap  40 60 20 30 50 10
+pb pb ra ra pb ra pa pa pa ra ra ra pb pb ra pa pa ra ra ra pb ra pa ra
+./push_swap  60 40 20 30 50 10
+pb pb ra ra pb ra pa rb pa pa ra ra ra pb pb ra pa pa ra ra ra pb ra pa ra
+./push_swap  60 40 20 30 10 50
+pb pb ra ra ra pb pa rb pa pa ra ra ra pb pb ra pa pa ra ra ra pb ra pa ra
+./push_swap  40 60 20 30 10 50
+pb pb ra ra ra pb pa pa pa ra ra ra pb pb ra pa pa ra ra ra pb ra pa ra
+./push_swap  40 20 60 30 10 50
+pb ra pb ra ra pb pa pa pa ra ra ra pb pb ra pa pa ra ra ra pb ra pa ra
+./push_swap  40 20 30 60 10 50
+pb ra ra pb ra pb pa pa pa ra ra ra pb pb ra pa pa ra ra ra pb ra pa ra
+./push_swap  40 20 30 10 60 50
+pb ra ra ra pb pb pa pa pa ra ra ra pb pb ra pa pa ra ra ra pb ra pa ra
+./push_swap  40 20 30 10 50 60
+pb ra ra ra pb pb pa pa pa ra ra ra pb pb ra pa pa ra ra ra ra pb pa ra
+./push_swap  40 20 10 30 50 60
+pb ra ra ra pb pb pa pa pa ra ra ra pb ra pb pa pa ra ra ra ra pb pa ra
+./push_swap  40 20 10 30 60 50
+pb ra ra ra pb pb pa pa pa ra ra ra pb ra pb pa pa ra ra ra pb ra pa ra
+./push_swap  40 20 10 60 30 50
+pb ra ra pb ra pb pa pa pa ra ra ra pb ra pb pa pa ra ra ra pb ra pa ra
+./push_swap  40 20 60 10 30 50
+pb ra pb ra ra pb pa pa pa ra ra ra pb ra pb pa pa ra ra ra pb ra pa ra
+./push_swap  40 60 20 10 30 50
+pb pb ra ra ra pb pa pa pa ra ra ra pb ra pb pa pa ra ra ra pb ra pa ra
+./push_swap  60 40 20 10 30 50
+pb pb ra ra ra pb pa rb pa pa ra ra ra pb ra pb pa pa ra ra ra pb ra pa ra
+./push_swap  60 40 20 10 50 30
+pb pb ra ra pb ra pa rb pa pa ra ra ra pb ra pb pa pa ra ra ra pb ra pa ra
+./push_swap  40 60 20 10 50 30
+pb pb ra ra pb ra pa pa pa ra ra ra pb ra pb pa pa ra ra ra pb ra pa ra
+./push_swap  40 20 60 10 50 30
+pb ra pb ra pb ra pa pa pa ra ra ra pb ra pb pa pa ra ra ra pb ra pa ra
+./push_swap  40 20 10 60 50 30
+pb ra ra pb pb ra pa pa pa ra ra ra pb ra pb pa pa ra ra ra pb ra pa ra
+./push_swap  40 20 10 50 60 30
+pb ra ra pb pb ra pa pa pa ra ra ra pb ra pb pa pa ra ra ra ra pb pa ra
+./push_swap  40 20 10 50 30 60
+pb ra ra pb ra pb pa pa pa ra ra ra pb ra pb pa pa ra ra ra ra pb pa ra
+./push_swap  40 20 50 10 30 60
+pb ra pb ra ra pb pa pa pa ra ra ra pb ra pb pa pa ra ra ra ra pb pa ra
+./push_swap  40 20 50 10 60 30
+pb ra pb ra pb ra pa pa pa ra ra ra pb ra pb pa pa ra ra ra ra pb pa ra
+./push_swap  40 20 50 60 10 30
+pb ra pb pb ra ra pa pa pa ra ra ra pb ra pb pa pa ra ra ra ra pb pa ra
+./push_swap  40 20 60 50 10 30
+pb ra pb pb ra ra pa pa pa ra ra ra pb ra pb pa pa ra ra ra pb ra pa ra
+./push_swap  40 60 20 50 10 30
+pb pb ra pb ra ra pa pa pa ra ra ra pb ra pb pa pa ra ra ra pb ra pa ra
+./push_swap  60 40 20 50 10 30
+pb pb ra pb ra ra pa rb pa pa ra ra ra pb ra pb pa pa ra ra ra pb ra pa ra
+./push_swap  60 40 50 20 10 30
+pb pb pb ra ra ra pa rb pa pa ra ra ra pb ra pb pa pa ra ra ra pb ra pa ra
+./push_swap  40 60 50 20 10 30
+pb pb pb ra ra ra pa pa pa ra ra ra pb ra pb pa pa ra ra ra pb ra pa ra
+./push_swap  40 50 60 20 10 30
+pb pb pb ra ra ra pa pa pa ra ra ra pb ra pb pa pa ra ra ra ra pb pa ra
+./push_swap  40 50 20 60 10 30
+pb pb ra pb ra ra pa pa pa ra ra ra pb ra pb pa pa ra ra ra ra pb pa ra
+./push_swap  40 50 20 10 60 30
+pb pb ra ra pb ra pa pa pa ra ra ra pb ra pb pa pa ra ra ra ra pb pa ra
+./push_swap  40 50 20 10 30 60
+pb pb ra ra ra pb pa pa pa ra ra ra pb ra pb pa pa ra ra ra ra pb pa ra
+./push_swap  50 40 20 10 30 60
+pb pb ra ra ra pb pa rb pa pa ra ra ra pb ra pb pa pa ra ra ra ra pb pa ra
+./push_swap  50 40 20 10 60 30
+pb pb ra ra pb ra pa rb pa pa ra ra ra pb ra pb pa pa ra ra ra ra pb pa ra
+./push_swap  50 40 20 60 10 30
+pb pb ra pb ra ra pa rb pa pa ra ra ra pb ra pb pa pa ra ra ra ra pb pa ra
+./push_swap  50 40 60 20 10 30
+pb pb pb ra ra ra pa rb pa pa ra ra ra pb ra pb pa pa ra ra ra ra pb pa ra
+./push_swap  50 60 40 20 10 30
+pb pb pb ra ra ra rb pa pa pa ra ra ra pb ra pb pa pa ra ra ra ra pb pa ra
+./push_swap  60 50 40 20 10 30
+pb pb pb ra ra ra rb pa pa pa ra ra ra pb ra pb pa pa ra ra ra pb ra pa ra
+./push_swap  60 50 20 40 10 30
+pb pb ra pb ra ra rb pa pa pa ra ra ra pb ra pb pa pa ra ra ra pb ra pa ra
+./push_swap  50 60 20 40 10 30
+pb pb ra pb ra ra rb pa pa pa ra ra ra pb ra pb pa pa ra ra ra ra pb pa ra
+./push_swap  50 20 60 40 10 30
+pb ra pb pb ra ra rb pa pa pa ra ra ra pb ra pb pa pa ra ra ra ra pb pa ra
+./push_swap  50 20 40 60 10 30
+pb ra pb pb ra ra pa rb pa pa ra ra ra pb ra pb pa pa ra ra ra ra pb pa ra
+./push_swap  50 20 40 10 60 30
+pb ra pb ra pb ra pa rb pa pa ra ra ra pb ra pb pa pa ra ra ra ra pb pa ra
+./push_swap  50 20 40 10 30 60
+pb ra pb ra ra pb pa rb pa pa ra ra ra pb ra pb pa pa ra ra ra ra pb pa ra
+./push_swap  20 50 40 10 30 60
+ra pb pb ra ra pb pa rb pa pa ra ra ra pb ra pb pa pa ra ra ra ra pb pa ra
+./push_swap  20 50 40 10 60 30
+ra pb pb ra pb ra pa rb pa pa ra ra ra pb ra pb pa pa ra ra ra ra pb pa ra
+./push_swap  20 50 40 60 10 30
+ra pb pb pb ra ra pa rb pa pa ra ra ra pb ra pb pa pa ra ra ra ra pb pa ra
+./push_swap  20 50 60 40 10 30
+ra pb pb pb ra ra rb pa pa pa ra ra ra pb ra pb pa pa ra ra ra ra pb pa ra
+./push_swap  20 60 50 40 10 30
+ra pb pb pb ra ra rb pa pa pa ra ra ra pb ra pb pa pa ra ra ra pb ra pa ra
+./push_swap  60 20 50 40 10 30
+pb ra pb pb ra ra rb pa pa pa ra ra ra pb ra pb pa pa ra ra ra pb ra pa ra
+./push_swap  60 20 40 50 10 30
+pb ra pb pb ra ra pa rb pa pa ra ra ra pb ra pb pa pa ra ra ra pb ra pa ra
+./push_swap  20 60 40 50 10 30
+ra pb pb pb ra ra pa rb pa pa ra ra ra pb ra pb pa pa ra ra ra pb ra pa ra
+./push_swap  20 40 60 50 10 30
+ra pb pb pb ra ra pa pa pa ra ra ra pb ra pb pa pa ra ra ra pb ra pa ra
+./push_swap  20 40 50 60 10 30
+rra rra rra sa ra pb ra ra pb pb pa rb pa pa ra ra ra ra pb pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  20 40 50 10 60 30
+ra pb pb ra pb ra pa pa pa ra ra ra pb ra pb pa pa ra ra ra ra pb pa ra
+./push_swap  20 40 50 10 30 60
+ra ra sa ra pb ra pb ra pb rb pa pa pa ra ra ra ra pb pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  20 40 10 50 30 60
+ra pb ra pb ra pb pa pa pa ra ra ra pb ra pb pa pa ra ra ra ra pb pa ra
+./push_swap  20 40 10 50 60 30
+ra pb ra pb pb ra pa pa pa ra ra ra pb ra pb pa pa ra ra ra ra pb pa ra
+./push_swap  20 40 10 60 50 30
+ra pb ra pb pb ra pa pa pa ra ra ra pb ra pb pa pa ra ra ra pb ra pa ra
+./push_swap  20 40 60 10 50 30
+ra pb pb ra pb ra pa pa pa ra ra ra pb ra pb pa pa ra ra ra pb ra pa ra
+./push_swap  20 60 40 10 50 30
+ra pb pb ra pb ra pa rb pa pa ra ra ra pb ra pb pa pa ra ra ra pb ra pa ra
+./push_swap  60 20 40 10 50 30
+pb ra pb ra pb ra pa rb pa pa ra ra ra pb ra pb pa pa ra ra ra pb ra pa ra
+./push_swap  60 20 40 10 30 50
+pb ra pb ra ra pb pa rb pa pa ra ra ra pb ra pb pa pa ra ra ra pb ra pa ra
+./push_swap  20 60 40 10 30 50
+ra pb pb ra ra pb pa rb pa pa ra ra ra pb ra pb pa pa ra ra ra pb ra pa ra
+./push_swap  20 40 60 10 30 50
+ra ra sa ra pb ra pb ra pb rb pa pa pa ra ra ra ra pb pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  20 40 10 60 30 50
+ra pb ra pb ra pb pa pa pa ra ra ra pb ra pb pa pa ra ra ra pb ra pa ra
+./push_swap  20 40 10 30 60 50
+ra pb ra ra pb pb pa pa pa ra ra ra pb ra pb pa pa ra ra ra pb ra pa ra
+./push_swap  20 40 10 30 50 60
+ra sa ra pb ra pb pb ra pa pa pa ra ra ra ra pb pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  20 10 40 30 50 60
+ra ra pb ra pb pb pa pa pa ra ra ra pb ra pb pa pa ra ra ra ra pb pa ra
+./push_swap  20 10 40 30 60 50
+ra ra pb ra pb pb pa pa pa ra ra ra pb ra pb pa pa ra ra ra pb ra pa ra
+./push_swap  20 10 40 60 30 50
+ra ra pb pb ra pb pa pa pa ra ra ra pb ra pb pa pa ra ra ra pb ra pa ra
+./push_swap  20 10 60 40 30 50
+ra ra pb pb ra pb pa rb pa pa ra ra ra pb ra pb pa pa ra ra ra pb ra pa ra
+./push_swap  20 60 10 40 30 50
+ra pb ra pb ra pb pa rb pa pa ra ra ra pb ra pb pa pa ra ra ra pb ra pa ra
+./push_swap  60 20 10 40 30 50
+pb ra ra pb ra pb pa rb pa pa ra ra ra pb ra pb pa pa ra ra ra pb ra pa ra
+./push_swap  60 20 10 40 50 30
+pb ra ra pb pb ra pa rb pa pa ra ra ra pb ra pb pa pa ra ra ra pb ra pa ra
+./push_swap  20 60 10 40 50 30
+ra pb ra pb pb ra pa rb pa pa ra ra ra pb ra pb pa pa ra ra ra pb ra pa ra
+./push_swap  20 10 60 40 50 30
+ra ra pb pb pb ra pa rb pa pa ra ra ra pb ra pb pa pa ra ra ra pb ra pa ra
+./push_swap  20 10 40 60 50 30
+ra ra pb pb pb ra pa pa pa ra ra ra pb ra pb pa pa ra ra ra pb ra pa ra
+./push_swap  20 10 40 50 60 30
+ra ra pb pb pb ra pa pa pa ra ra ra pb ra pb pa pa ra ra ra ra pb pa ra
+./push_swap  20 10 40 50 30 60
+ra ra pb pb ra pb pa pa pa ra ra ra pb ra pb pa pa ra ra ra ra pb pa ra
+./push_swap  20 10 50 40 30 60
+ra ra pb pb ra pb pa rb pa pa ra ra ra pb ra pb pa pa ra ra ra ra pb pa ra
+./push_swap  20 10 50 40 60 30
+ra ra pb pb pb ra pa rb pa pa ra ra ra pb ra pb pa pa ra ra ra ra pb pa ra
+./push_swap  20 10 50 60 40 30
+ra ra pb pb pb ra rb pa pa pa ra ra ra pb ra pb pa pa ra ra ra ra pb pa ra
+./push_swap  20 10 60 50 40 30
+ra ra pb pb pb ra rb pa pa pa ra ra ra pb ra pb pa pa ra ra ra pb ra pa ra
+./push_swap  20 60 10 50 40 30
+ra pb ra pb pb ra rb pa pa pa ra ra ra pb ra pb pa pa ra ra ra pb ra pa ra
+./push_swap  60 20 10 50 40 30
+pb ra ra pb pb ra rb pa pa pa ra ra ra pb ra pb pa pa ra ra ra pb ra pa ra
+./push_swap  60 20 50 10 40 30
+pb ra pb ra pb ra rb pa pa pa ra ra ra pb ra pb pa pa ra ra ra pb ra pa ra
+./push_swap  20 60 50 10 40 30
+ra pb pb ra pb ra rb pa pa pa ra ra ra pb ra pb pa pa ra ra ra pb ra pa ra
+./push_swap  20 50 60 10 40 30
+ra pb pb ra pb ra rb pa pa pa ra ra ra pb ra pb pa pa ra ra ra ra pb pa ra
+./push_swap  20 50 10 60 40 30
+ra pb ra pb pb ra rb pa pa pa ra ra ra pb ra pb pa pa ra ra ra ra pb pa ra
+./push_swap  20 50 10 40 60 30
+ra pb ra pb pb ra pa rb pa pa ra ra ra pb ra pb pa pa ra ra ra ra pb pa ra
+./push_swap  20 50 10 40 30 60
+ra pb ra pb ra pb pa rb pa pa ra ra ra pb ra pb pa pa ra ra ra ra pb pa ra
+./push_swap  50 20 10 40 30 60
+pb ra ra pb ra pb pa rb pa pa ra ra ra pb ra pb pa pa ra ra ra ra pb pa ra
+./push_swap  50 20 10 40 60 30
+pb ra ra pb pb ra pa rb pa pa ra ra ra pb ra pb pa pa ra ra ra ra pb pa ra
+./push_swap  50 20 10 60 40 30
+pb ra ra pb pb ra rb pa pa pa ra ra ra pb ra pb pa pa ra ra ra ra pb pa ra
+./push_swap  50 20 60 10 40 30
+pb ra pb ra pb ra rb pa pa pa ra ra ra pb ra pb pa pa ra ra ra ra pb pa ra
+./push_swap  50 60 20 10 40 30
+pb pb ra ra pb ra rb pa pa pa ra ra ra pb ra pb pa pa ra ra ra ra pb pa ra
+./push_swap  60 50 20 10 40 30
+pb pb ra ra pb ra rb pa pa pa ra ra ra pb ra pb pa pa ra ra ra pb ra pa ra
+./push_swap  60 50 20 10 30 40
+pb pb ra ra ra pb rb pa pa pa ra ra ra pb ra pb pa pa ra ra ra pb ra pa ra
+./push_swap  50 60 20 10 30 40
+pb pb ra ra ra pb rb pa pa pa ra ra ra pb ra pb pa pa ra ra ra ra pb pa ra
+./push_swap  50 20 60 10 30 40
+pb ra pb ra ra pb rb pa pa pa ra ra ra pb ra pb pa pa ra ra ra ra pb pa ra
+./push_swap  50 20 10 60 30 40
+pb ra ra pb ra pb rb pa pa pa ra ra ra pb ra pb pa pa ra ra ra ra pb pa ra
+./push_swap  50 20 10 30 60 40
+pb ra ra ra pb pb rb pa pa pa ra ra ra pb ra pb pa pa ra ra ra ra pb pa ra
+./push_swap  50 20 10 30 40 60
+pb ra ra ra pb pb pa rb pa pa ra ra ra pb ra pb pa pa ra ra ra ra pb pa ra
+./push_swap  20 50 10 30 40 60
+ra sa ra pb ra pb pb ra pa rb pa pa ra ra ra ra pb pb rb pa pa ra ra ra ra pb pa ra
+./push_swap  20 50 10 30 60 40
+ra pb ra ra pb pb rb pa pa pa ra ra ra pb ra pb pa pa ra ra ra ra pb pa ra
+./push_swap  20 50 10 60 30 40
+ra pb ra pb ra pb rb pa pa pa ra ra ra pb ra pb pa pa ra ra ra ra pb pa ra
+./push_swap  20 50 60 10 30 40
+ra ra sa ra pb ra pb ra pb pa rb pa pa ra ra ra ra pb pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  20 60 50 10 30 40
+ra pb pb ra ra pb rb pa pa pa ra ra ra pb ra pb pa pa ra ra ra pb ra pa ra
+./push_swap  60 20 50 10 30 40
+pb ra pb ra ra pb rb pa pa pa ra ra ra pb ra pb pa pa ra ra ra pb ra pa ra
+./push_swap  60 20 10 50 30 40
+pb ra ra pb ra pb rb pa pa pa ra ra ra pb ra pb pa pa ra ra ra pb ra pa ra
+./push_swap  20 60 10 50 30 40
+ra pb ra pb ra pb rb pa pa pa ra ra ra pb ra pb pa pa ra ra ra pb ra pa ra
+./push_swap  20 10 60 50 30 40
+ra ra pb pb ra pb rb pa pa pa ra ra ra pb ra pb pa pa ra ra ra pb ra pa ra
+./push_swap  20 10 50 60 30 40
+ra ra pb pb ra pb rb pa pa pa ra ra ra pb ra pb pa pa ra ra ra ra pb pa ra
+./push_swap  20 10 50 30 60 40
+ra ra pb ra pb pb rb pa pa pa ra ra ra pb ra pb pa pa ra ra ra ra pb pa ra
+./push_swap  20 10 50 30 40 60
+ra ra pb ra pb pb pa rb pa pa ra ra ra pb ra pb pa pa ra ra ra ra pb pa ra
+./push_swap  20 10 30 50 40 60
+ra ra ra pb pb pb pa rb pa pa ra ra ra pb ra pb pa pa ra ra ra ra pb pa ra
+./push_swap  20 10 30 50 60 40
+ra ra ra pb pb pb rb pa pa pa ra ra ra pb ra pb pa pa ra ra ra ra pb pa ra
+./push_swap  20 10 30 60 50 40
+ra ra ra pb pb pb rb pa pa pa ra ra ra pb ra pb pa pa ra ra ra pb ra pa ra
+./push_swap  20 10 60 30 50 40
+ra ra pb ra pb pb rb pa pa pa ra ra ra pb ra pb pa pa ra ra ra pb ra pa ra
+./push_swap  20 60 10 30 50 40
+ra pb ra ra pb pb rb pa pa pa ra ra ra pb ra pb pa pa ra ra ra pb ra pa ra
+./push_swap  60 20 10 30 50 40
+pb ra ra ra pb pb rb pa pa pa ra ra ra pb ra pb pa pa ra ra ra pb ra pa ra
+./push_swap  60 20 10 30 40 50
+pb ra ra ra pb pb pa rb pa pa ra ra ra pb ra pb pa pa ra ra ra pb ra pa ra
+./push_swap  20 60 10 30 40 50
+ra sa ra pb ra pb pb ra pa rb pa pa ra ra ra ra pb pb rb pa pa ra ra ra pb ra pa ra
+./push_swap  20 10 60 30 40 50
+ra ra pb ra pb pb pa rb pa pa ra ra ra pb ra pb pa pa ra ra ra pb ra pa ra
+./push_swap  20 10 30 60 40 50
+ra ra ra pb pb pb pa rb pa pa ra ra ra pb ra pb pa pa ra ra ra pb ra pa ra
+./push_swap  20 10 30 40 60 50
+ra ra ra pb pb pb pa pa pa ra ra ra pb ra pb pa pa ra ra ra pb ra pa ra
+./push_swap  20 10 30 40 50 60
+sa

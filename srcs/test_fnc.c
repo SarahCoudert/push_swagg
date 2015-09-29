@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   test_fnc.c                                         :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: scoudert <scoudert@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2015/09/29 17:46:48 by scoudert          #+#    #+#             */
+/*   Updated: 2015/09/29 17:46:49 by scoudert         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "push_swap.h"
 
 void		read_list(t_list *list, char *name)
@@ -8,7 +20,7 @@ void		read_list(t_list *list, char *name)
 	j = 0;
 	ft_putstr(name);
 	ft_putendl("");
-	ptr  = list;
+	ptr = list;
 	while (ptr)
 	{
 		ft_putnbr(ptr->content);
@@ -23,7 +35,7 @@ int			check_order(t_list **p, int check)
 	t_list	*ptr;
 
 	ptr = *p;
-	while(ptr->next)
+	while (ptr->next)
 	{
 		if (ptr->content > ptr->next->content)
 		{
@@ -31,7 +43,7 @@ int			check_order(t_list **p, int check)
 			{
 				ft_putstr("\nError, list unsorted\n");
 				read_list(*p, "List ");
-				return ;
+				return (1);
 			}
 			else
 				return (0);
