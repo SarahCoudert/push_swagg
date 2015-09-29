@@ -6,7 +6,7 @@
 /*   By: scoudert <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/10 17:41:10 by scoudert          #+#    #+#             */
-/*   Updated: 2014/11/13 17:22:53 by scoudert         ###   ########.fr       */
+/*   Updated: 2015/09/29 18:06:53 by scoudert         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ char	*ft_strnew(size_t size)
 	ptr = NULL;
 	ptr = malloc(size);
 	if (ptr == NULL)
-			return (NULL);
+		return (NULL);
 	ft_bzero(ptr, size);
 	return (ptr);
 }

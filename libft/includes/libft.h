@@ -13,8 +13,8 @@
 #ifndef LIBFT_H
 # define LIBFT_H
 # include <string.h>
-#define MAX_INT		2147483647
-#define MIN_INT		(-MAX_INT -1)
+# define MAX_INT	2147483647
+# define MIN_INT	(-MAX_INT -1)
 
 void				ft_double_tab_del(void **tab);
 int					ft_hexatodeci(char *str);
@@ -89,10 +89,10 @@ typedef struct		s_list
 	struct s_list	*next;
 }					t_list;
 
-void  				del(int content, size_t content_size);
+void				del(int content, size_t content_size);
 t_list				*ft_lstcpelement(t_list *copy_from, t_list *copy_to);
 t_list				*ft_lstnew(int const content, size_t content_size);
-void				ft_lstdelone(t_list **alst, void (*del)(int , size_t));
+void				ft_lstdelone(t_list **alst, void (*del)(int, size_t));
 void				ft_lstdel(t_list **alst);
 void				ft_lstadd(t_list **alst, t_list *new);
 void				ft_lstiter(t_list *lst, void (*f)(t_list *elem));
