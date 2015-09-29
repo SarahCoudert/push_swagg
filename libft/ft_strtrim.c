@@ -6,7 +6,7 @@
 /*   By: scoudert <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/12 13:36:58 by scoudert          #+#    #+#             */
-/*   Updated: 2014/11/18 11:28:33 by scoudert         ###   ########.fr       */
+/*   Updated: 2015/09/29 18:10:45 by scoudert         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,9 +26,9 @@ void	ft_strtrim(char *s)
 	{
 		while (s[offset + i - 1])
 			s[i] = s[offset + i];
-	i = ft_strlen(s) - 1;
-	while (i >= 0 && ft_isspace(s[i]))
-		s[i] = '\0';
+		i = ft_strlen(s) - 1;
+		while (i >= 0 && ft_isspace(s[i]))
+			s[i] = '\0';
 		i--;
 	}
 }

@@ -6,7 +6,7 @@
 #    By: scoudert <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2014/11/13 16:10:00 by scoudert          #+#    #+#              #
-#    Updated: 2015/06/09 17:36:55 by scoudert         ###   ########.fr        #
+#    Updated: 2015/09/29 18:13:11 by scoudert         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -30,7 +30,7 @@ ft_putendl_fd.c ft_strcmp.c ft_strlcat.c ft_strnew.c ft_swap.c ft_memcpy.c\
 ft_lstaddend.c ft_lstcountbytes.c ft_itoa.c  ft_lstdel.c\
 ft_lstcountelements.c ft_putnbr.c ft_strlen.c ft_strnstr.c ft_tolower.c \
 ft_isprint.c ft_strcpy.c ft_lstadd.c ft_tabnew.c del.c ft_lstdelone.c \
-ft_double_tab_del.c ft_count_word.c ft_putn.c ft_strtoupper.c ft_hexatodeci.c \
+ft_double_tab_del.c ft_count_word.c ft_putn.c ft_strtoupper.c \
 ft_put_error.c ft_lstcpelement.c ft_isspace.c ft_deferputstr.c
 
 HEADER=./includes

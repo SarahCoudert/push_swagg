@@ -6,7 +6,7 @@
 /*   By: scoudert <scoudert@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/09/29 18:07:19 by scoudert          #+#    #+#             */
-/*   Updated: 2015/09/29 18:07:21 by scoudert         ###   ########.fr       */
+/*   Updated: 2015/09/29 18:10:29 by scoudert         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -77,4 +77,3 @@ char			**ft_strsplit(char const *s, char c)
 	tab[i] = 0;
 	return (tab);
 }
-
