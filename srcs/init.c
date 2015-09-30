@@ -81,6 +81,7 @@ int				check_list(t_list **a)
 		ptr = ptr->next;
 		ptr2 = ptr;
 	}
+	check_if_rotate(a);
 	check_if_swap(a, countelem(*a));
 	return (1);
 }
@@ -96,7 +97,8 @@ void			create_list(t_list **lst, char **av, int ac)
 	i = 1;
 	while (i < ac)
 	{
-		if (ft_strcmp(av[i], "-c") != 0 && ft_strcmp(av[i], "-v") != 0)
+		if ((ft_strcmp(av[i], "-c") != 0 && ft_strcmp(av[i], "-v") != 0)
+			|| i > 2)
 		{
 			happend++;
 			check(av[i]);

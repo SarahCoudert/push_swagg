@@ -46,6 +46,9 @@ void			swap_elements(int way, t_list **a, int pb);
 int				min_lst(t_list *a);
 void			two_elements(t_list **a);
 void			four_or_five_elements(int size, t_list **a);
+void			check_if_rotate(t_list **a);
+void			min_rotate(t_list **a);
+void			max_rotate(t_list **a, int pb);
 
 typedef struct	s_bonus
 {

@@ -19,7 +19,8 @@ SRCS =	main.c \
 		test_fnc.c \
 		selection_tab.c \
 		quicksort.c	\
-		unusual_cases.c
+		unusual_cases.c \
+		unusual_cases_2.c
 
 INC=libft/includes -I includes/
 

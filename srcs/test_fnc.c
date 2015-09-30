@@ -51,6 +51,8 @@ int			check_order(t_list **p, int check)
 		else
 			ptr = ptr->next;
 	}
+	if (g_bonus.verbose == 1)
+		read_list(*p, "\n");
 	ft_lstdel(p);
 	ft_putchar('\n');
 	exit(0);
